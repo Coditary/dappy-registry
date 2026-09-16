@@ -2,10 +2,31 @@
   "schemaVersion": 1,
   "packages": [
     {
+      "id": "dappy-cli",
+      "version": "0.1.1",
+      "description": "Dappy debug adapter proxy CLI",
+      "tags": [
+        "cli",
+        "debug",
+        "dap",
+        "dappy"
+      ],
+      "indexName": "dappy-cli",
+      "source": {
+        "type": "index",
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-registry/main/dappy-cli-index.json"
+      }
+    },
+    {
       "id": "python",
       "version": "0.1.0",
       "description": "Python debugpy adapter manifest for Dappy",
-      "tags": ["dap", "adapter", "python", "debugpy"],
+      "tags": [
+        "dap",
+        "adapter",
+        "python",
+        "debugpy"
+      ],
       "source": {
         "type": "plugin",
         "files": [
@@ -24,7 +45,12 @@
       "id": "rust",
       "version": "0.1.0",
       "description": "Rust lldb-dap adapter manifest for Dappy",
-      "tags": ["dap", "adapter", "rust", "lldb"],
+      "tags": [
+        "dap",
+        "adapter",
+        "rust",
+        "lldb"
+      ],
       "source": {
         "type": "plugin",
         "files": [
@@ -43,7 +69,12 @@
       "id": "fake",
       "version": "0.1.0",
       "description": "Fake DAP adapter manifest for Dappy tests",
-      "tags": ["dap", "adapter", "fake", "testing"],
+      "tags": [
+        "dap",
+        "adapter",
+        "fake",
+        "testing"
+      ],
       "source": {
         "type": "plugin",
         "files": [
@@ -58,7 +89,12 @@
       "id": "gdb-remote",
       "version": "0.1.0",
       "description": "Builtin gdb-remote DAP bridge manifest for Dappy",
-      "tags": ["dap", "adapter", "gdb-remote", "rsp"],
+      "tags": [
+        "dap",
+        "adapter",
+        "gdb-remote",
+        "rsp"
+      ],
       "source": {
         "type": "plugin",
         "files": [
@@ -73,7 +109,12 @@
       "id": "gdbserver",
       "version": "0.1.0",
       "description": "Local gdbserver RSP target manifest for Dappy",
-      "tags": ["rsp", "target", "gdbserver", "gdb-remote"],
+      "tags": [
+        "rsp",
+        "target",
+        "gdbserver",
+        "gdb-remote"
+      ],
       "source": {
         "type": "plugin",
         "files": [
@@ -88,7 +129,12 @@
       "id": "qemu-x86-kernel",
       "version": "0.1.0",
       "description": "QEMU x86_64 kernel RSP target manifest for Dappy",
-      "tags": ["rsp", "target", "qemu", "gdb-remote"],
+      "tags": [
+        "rsp",
+        "target",
+        "qemu",
+        "gdb-remote"
+      ],
       "source": {
         "type": "plugin",
         "files": [
@@ -103,7 +149,12 @@
       "id": "rsp-attach",
       "version": "0.1.0",
       "description": "Attach-only RSP target manifest for Dappy",
-      "tags": ["rsp", "target", "gdb-remote", "attach"],
+      "tags": [
+        "rsp",
+        "target",
+        "gdb-remote",
+        "attach"
+      ],
       "source": {
         "type": "plugin",
         "files": [
