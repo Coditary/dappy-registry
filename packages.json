@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "packages": [
+    {
+      "id": "python",
+      "version": "0.1.0",
+      "description": "Python debugpy adapter manifest for Dappy",
+      "tags": ["dap", "adapter", "python", "debugpy"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python/plugin.yaml",
+            "path": "dap/plugins/python/plugin.yaml"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python/attachment.yaml",
+            "path": "dap/plugins/python/attachment.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rust",
+      "version": "0.1.0",
+      "description": "Rust lldb-dap adapter manifest for Dappy",
+      "tags": ["dap", "adapter", "rust", "lldb"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rust/plugin.yaml",
+            "path": "dap/plugins/rust/plugin.yaml"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rust/attachment.yaml",
+            "path": "dap/plugins/rust/attachment.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "fake",
+      "version": "0.1.0",
+      "description": "Fake DAP adapter manifest for Dappy tests",
+      "tags": ["dap", "adapter", "fake", "testing"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/fake/plugin.yaml",
+            "path": "dap/plugins/fake/plugin.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gdb-remote",
+      "version": "0.1.0",
+      "description": "Builtin gdb-remote DAP bridge manifest for Dappy",
+      "tags": ["dap", "adapter", "gdb-remote", "rsp"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdb-remote/plugin.yaml",
+            "path": "dap/plugins/gdb-remote/plugin.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "gdbserver",
+      "version": "0.1.0",
+      "description": "Local gdbserver RSP target manifest for Dappy",
+      "tags": ["rsp", "target", "gdbserver", "gdb-remote"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdbserver/target.yaml",
+            "path": "dap/targets/gdbserver/target.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "qemu-x86-kernel",
+      "version": "0.1.0",
+      "description": "QEMU x86_64 kernel RSP target manifest for Dappy",
+      "tags": ["rsp", "target", "qemu", "gdb-remote"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qemu-x86-kernel/target.yaml",
+            "path": "dap/targets/qemu-x86-kernel/target.yaml"
+          }
+        ]
+      }
+    },
+    {
+      "id": "rsp-attach",
+      "version": "0.1.0",
+      "description": "Attach-only RSP target manifest for Dappy",
+      "tags": ["rsp", "target", "gdb-remote", "attach"],
+      "source": {
+        "type": "plugin",
+        "files": [
+          {
+            "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rsp-attach/target.yaml",
+            "path": "dap/targets/rsp-attach/target.yaml"
+          }
+        ]
+      }
+    }
+  ]
+}

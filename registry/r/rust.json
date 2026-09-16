@@ -1,0 +1,24 @@
+{
+  "id": "rust",
+  "version": "0.1.0",
+  "description": "Rust lldb-dap adapter manifest for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "rust",
+    "lldb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rust/plugin.yaml",
+        "path": "dap/plugins/rust/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rust/attachment.yaml",
+        "path": "dap/plugins/rust/attachment.yaml"
+      }
+    ]
+  }
+}

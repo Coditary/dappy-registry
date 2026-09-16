@@ -1,0 +1,20 @@
+{
+  "id": "qemu-x86-kernel",
+  "version": "0.1.0",
+  "description": "QEMU x86_64 kernel RSP target manifest for Dappy",
+  "tags": [
+    "rsp",
+    "target",
+    "qemu",
+    "gdb-remote"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qemu-x86-kernel/target.yaml",
+        "path": "dap/targets/qemu-x86-kernel/target.yaml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "rsp-attach",
+  "version": "0.1.0",
+  "description": "Attach-only RSP target manifest for Dappy",
+  "tags": [
+    "rsp",
+    "target",
+    "gdb-remote",
+    "attach"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rsp-attach/target.yaml",
+        "path": "dap/targets/rsp-attach/target.yaml"
+      }
+    ]
+  }
+}

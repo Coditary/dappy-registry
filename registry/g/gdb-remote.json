@@ -1,0 +1,20 @@
+{
+  "id": "gdb-remote",
+  "version": "0.1.0",
+  "description": "Builtin gdb-remote DAP bridge manifest for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "gdb-remote",
+    "rsp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdb-remote/plugin.yaml",
+        "path": "dap/plugins/gdb-remote/plugin.yaml"
+      }
+    ]
+  }
+}

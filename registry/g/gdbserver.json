@@ -1,0 +1,20 @@
+{
+  "id": "gdbserver",
+  "version": "0.1.0",
+  "description": "Local gdbserver RSP target manifest for Dappy",
+  "tags": [
+    "rsp",
+    "target",
+    "gdbserver",
+    "gdb-remote"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdbserver/target.yaml",
+        "path": "dap/targets/gdbserver/target.yaml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "python",
+  "version": "0.1.0",
+  "description": "Python debugpy adapter manifest for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "debugpy"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python/plugin.yaml",
+        "path": "dap/plugins/python/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python/attachment.yaml",
+        "path": "dap/plugins/python/attachment.yaml"
+      }
+    ]
+  }
+}

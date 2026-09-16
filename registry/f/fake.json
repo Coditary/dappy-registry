@@ -1,0 +1,20 @@
+{
+  "id": "fake",
+  "version": "0.1.0",
+  "description": "Fake DAP adapter manifest for Dappy tests",
+  "tags": [
+    "dap",
+    "adapter",
+    "fake",
+    "testing"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/fake/plugin.yaml",
+        "path": "dap/plugins/fake/plugin.yaml"
+      }
+    ]
+  }
+}
