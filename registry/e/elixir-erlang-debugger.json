@@ -1,0 +1,28 @@
+{
+  "id": "elixir-erlang-debugger",
+  "version": "0.1.0",
+  "description": "BEAM VM graphical and CLI debugger",
+  "tags": [
+    "language",
+    "dap",
+    "erlang",
+    "elixir"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/pyproject.toml",
+        "path": "dap/plugins/language-extra-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/dappy_language_extra_launch/launcher.py",
+        "path": "dap/plugins/language-extra-launchers/dappy_language_extra_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/elixir-erlang-debugger/plugin.yaml",
+        "path": "dap/plugins/elixir-erlang-debugger/plugin.yaml"
+      }
+    ]
+  }
+}

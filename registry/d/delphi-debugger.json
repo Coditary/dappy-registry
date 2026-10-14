@@ -1,0 +1,32 @@
+{
+  "id": "delphi-debugger",
+  "version": "0.1.0",
+  "description": "Embarcadero RAD Studio Object Pascal debugger",
+  "tags": [
+    "language",
+    "dap",
+    "delphi",
+    "pascal"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/delphi-debugger/plugin.yaml",
+        "path": "dap/plugins/delphi-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/delphi-debugger/reqpack.lua",
+        "path": "dap/plugins/delphi-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

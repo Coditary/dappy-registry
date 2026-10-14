@@ -1,0 +1,57 @@
+{
+  "id": "python-pudb",
+  "version": "0.1.0",
+  "description": "PuDB full-screen TUI Python debugger adapter manifest for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "pudb",
+    "tui"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/plugin.yaml",
+        "path": "dap/plugins/python-pudb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/attachment.yaml",
+        "path": "dap/plugins/python-pudb/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/pyproject.toml",
+        "path": "dap/plugins/python-pudb/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/requirements.txt",
+        "path": "dap/plugins/python-pudb/requirements.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/README.md",
+        "path": "dap/plugins/python-pudb/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/pudb_dap_adapter/__init__.py",
+        "path": "dap/plugins/python-pudb/pudb_dap_adapter/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/pudb_dap_adapter/__main__.py",
+        "path": "dap/plugins/python-pudb/pudb_dap_adapter/__main__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/pudb_dap_adapter/server.py",
+        "path": "dap/plugins/python-pudb/pudb_dap_adapter/server.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/adapter/pudb-dap-adapter",
+        "path": "dap/plugins/python-pudb/adapter/pudb-dap-adapter"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pudb/reqpack.lua",
+        "path": "dap/plugins/python-pudb/reqpack.lua"
+      }
+    ]
+  }
+}

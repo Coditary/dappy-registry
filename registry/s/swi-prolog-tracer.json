@@ -1,0 +1,32 @@
+{
+  "id": "swi-prolog-tracer",
+  "version": "0.1.0",
+  "description": "Graphical and console Prolog tracer",
+  "tags": [
+    "language",
+    "dap",
+    "prolog",
+    "logic"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/pyproject.toml",
+        "path": "dap/plugins/language-extra-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/dappy_language_extra_launch/launcher.py",
+        "path": "dap/plugins/language-extra-launchers/dappy_language_extra_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/swi-prolog-tracer/plugin.yaml",
+        "path": "dap/plugins/swi-prolog-tracer/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/swi-prolog-tracer/reqpack.lua",
+        "path": "dap/plugins/swi-prolog-tracer/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "redis-cli-debug",
+  "version": "0.1.0",
+  "description": "Redis MONITOR and DEBUG OBJECT inspection",
+  "tags": [
+    "data",
+    "dap",
+    "redis",
+    "cache"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/data-protocol-launchers/pyproject.toml",
+        "path": "dap/plugins/data-protocol-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/data-protocol-launchers/dappy_data_protocol_launch/launcher.py",
+        "path": "dap/plugins/data-protocol-launchers/dappy_data_protocol_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/redis-cli-debug/plugin.yaml",
+        "path": "dap/plugins/redis-cli-debug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/redis-cli-debug/reqpack.lua",
+        "path": "dap/plugins/redis-cli-debug/reqpack.lua"
+      }
+    ]
+  }
+}

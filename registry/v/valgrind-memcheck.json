@@ -1,0 +1,26 @@
+{
+  "id": "valgrind-memcheck",
+  "version": "0.1.0",
+  "description": "Valgrind memcheck analysis target",
+  "tags": [
+    "target",
+    "valgrind",
+    "memcheck",
+    "analysis",
+    "c",
+    "cpp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/valgrind-memcheck/target.yaml",
+        "path": "dap/targets/valgrind-memcheck/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/valgrind-memcheck/reqpack.lua",
+        "path": "dap/plugins/valgrind-memcheck/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "perl-debugger",
+  "version": "0.1.0",
+  "description": "Built-in interactive perl -d debugger",
+  "tags": [
+    "language",
+    "dap",
+    "perl",
+    "scripting"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/perl-debugger/plugin.yaml",
+        "path": "dap/plugins/perl-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/perl-debugger/reqpack.lua",
+        "path": "dap/plugins/perl-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

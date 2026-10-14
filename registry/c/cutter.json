@@ -1,0 +1,31 @@
+{
+  "id": "cutter",
+  "version": "0.1.0",
+  "description": "cutter RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "cutter"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/cutter/plugin.yaml",
+        "path": "dap/plugins/cutter/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/cutter/reqpack.lua",
+        "path": "dap/plugins/cutter/reqpack.lua"
+      }
+    ]
+  }
+}

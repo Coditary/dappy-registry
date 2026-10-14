@@ -1,0 +1,31 @@
+{
+  "id": "radare2",
+  "version": "0.1.0",
+  "description": "radare2 RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "radare2"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/radare2/plugin.yaml",
+        "path": "dap/plugins/radare2/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/radare2/reqpack.lua",
+        "path": "dap/plugins/radare2/reqpack.lua"
+      }
+    ]
+  }
+}

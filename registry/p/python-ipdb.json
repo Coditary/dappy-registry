@@ -1,0 +1,58 @@
+{
+  "id": "python-ipdb",
+  "version": "0.1.0",
+  "description": "Python ipdb adapter manifest for Dappy (via ipdab)",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "ipdb",
+    "ipdab",
+    "pdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/plugin.yaml",
+        "path": "dap/plugins/python-ipdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/attachment.yaml",
+        "path": "dap/plugins/python-ipdb/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/pyproject.toml",
+        "path": "dap/plugins/python-ipdb/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/bin/dappy-ipdb-bridge",
+        "path": "dap/plugins/python-ipdb/bin/dappy-ipdb-bridge"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/dappy_ipdb/__init__.py",
+        "path": "dap/plugins/python-ipdb/dappy_ipdb/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/dappy_ipdb/bridge.py",
+        "path": "dap/plugins/python-ipdb/dappy_ipdb/bridge.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/dappy_ipdb/launcher.py",
+        "path": "dap/plugins/python-ipdb/dappy_ipdb/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/dappy_ipdb/dap_io.py",
+        "path": "dap/plugins/python-ipdb/dappy_ipdb/dap_io.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/README.md",
+        "path": "dap/plugins/python-ipdb/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-ipdb/reqpack.lua",
+        "path": "dap/plugins/python-ipdb/reqpack.lua"
+      }
+    ]
+  }
+}

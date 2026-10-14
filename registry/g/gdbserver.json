@@ -14,6 +14,10 @@
       {
         "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdbserver/target.yaml",
         "path": "dap/targets/gdbserver/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdbserver/reqpack.lua",
+        "path": "dap/plugins/gdbserver/reqpack.lua"
       }
     ]
   }

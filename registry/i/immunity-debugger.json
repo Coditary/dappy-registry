@@ -1,0 +1,31 @@
+{
+  "id": "immunity-debugger",
+  "version": "0.1.0",
+  "description": "immunity-debugger RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "immunity-debugger"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/immunity-debugger/plugin.yaml",
+        "path": "dap/plugins/immunity-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/immunity-debugger/reqpack.lua",
+        "path": "dap/plugins/immunity-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

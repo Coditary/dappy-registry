@@ -1,0 +1,23 @@
+{
+  "id": "opera-dragonfly",
+  "version": "0.1.0",
+  "description": "Opera Dragonfly legacy stub",
+  "tags": [
+    "dap",
+    "dragonfly",
+    "legacy"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/opera-dragonfly/plugin.yaml",
+        "path": "dap/plugins/opera-dragonfly/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/opera-dragonfly/reqpack.lua",
+        "path": "dap/plugins/opera-dragonfly/reqpack.lua"
+      }
+    ]
+  }
+}

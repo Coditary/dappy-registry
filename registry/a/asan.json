@@ -1,0 +1,31 @@
+{
+  "id": "asan",
+  "version": "0.1.0",
+  "description": "asan analysis target",
+  "tags": [
+    "target",
+    "sanitizer",
+    "asan"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/asan/target.yaml",
+        "path": "dap/targets/asan/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/asan/reqpack.lua",
+        "path": "dap/plugins/asan/reqpack.lua"
+      }
+    ]
+  }
+}

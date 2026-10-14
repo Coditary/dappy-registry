@@ -1,0 +1,32 @@
+{
+  "id": "lua-mobdebug",
+  "version": "0.1.0",
+  "description": "Lua remote debugger (MobDebug protocol)",
+  "tags": [
+    "language",
+    "dap",
+    "lua",
+    "scripting"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/lua-mobdebug/plugin.yaml",
+        "path": "dap/plugins/lua-mobdebug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/lua-mobdebug/reqpack.lua",
+        "path": "dap/plugins/lua-mobdebug/reqpack.lua"
+      }
+    ]
+  }
+}

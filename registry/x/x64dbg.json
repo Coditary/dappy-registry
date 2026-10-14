@@ -1,0 +1,31 @@
+{
+  "id": "x64dbg",
+  "version": "0.1.0",
+  "description": "x64dbg RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "x64dbg"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/x64dbg/plugin.yaml",
+        "path": "dap/plugins/x64dbg/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/x64dbg/reqpack.lua",
+        "path": "dap/plugins/x64dbg/reqpack.lua"
+      }
+    ]
+  }
+}

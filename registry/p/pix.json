@@ -1,0 +1,32 @@
+{
+  "id": "pix",
+  "version": "0.1.0",
+  "description": "Microsoft DirectX 12 and Xbox graphics debugger",
+  "tags": [
+    "graphics",
+    "dap",
+    "gpu",
+    "directx"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pix/plugin.yaml",
+        "path": "dap/plugins/pix/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pix/reqpack.lua",
+        "path": "dap/plugins/pix/reqpack.lua"
+      }
+    ]
+  }
+}

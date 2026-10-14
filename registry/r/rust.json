@@ -18,6 +18,10 @@
       {
         "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rust/attachment.yaml",
         "path": "dap/plugins/rust/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rust/reqpack.lua",
+        "path": "dap/plugins/rust/reqpack.lua"
       }
     ]
   }

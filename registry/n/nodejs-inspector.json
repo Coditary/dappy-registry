@@ -1,0 +1,24 @@
+{
+  "id": "nodejs-inspector",
+  "version": "0.1.0",
+  "description": "Node.js V8 inspector via js-debug",
+  "tags": [
+    "dap",
+    "adapter",
+    "node",
+    "javascript"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/nodejs-inspector/plugin.yaml",
+        "path": "dap/plugins/nodejs-inspector/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/nodejs-inspector/reqpack.lua",
+        "path": "dap/plugins/nodejs-inspector/reqpack.lua"
+      }
+    ]
+  }
+}

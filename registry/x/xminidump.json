@@ -1,0 +1,33 @@
+{
+  "id": "xminidump",
+  "version": "0.1.0",
+  "description": "Windows minidump analysis tools",
+  "tags": [
+    "historic",
+    "dap",
+    "windows",
+    "dump",
+    "crash"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/xminidump/plugin.yaml",
+        "path": "dap/plugins/xminidump/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/xminidump/reqpack.lua",
+        "path": "dap/plugins/xminidump/reqpack.lua"
+      }
+    ]
+  }
+}

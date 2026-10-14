@@ -1,0 +1,35 @@
+{
+  "id": "graphics-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-graphics-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/README.md",
+        "path": "dap/plugins/graphics-launchers/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/__init__.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/reqpack.lua",
+        "path": "dap/plugins/graphics-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

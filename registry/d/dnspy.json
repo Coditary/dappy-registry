@@ -1,0 +1,24 @@
+{
+  "id": "dnspy",
+  "version": "0.1.0",
+  "description": "dnSpyEx .NET debugger Windows",
+  "tags": [
+    "dap",
+    "dnspy",
+    "dotnet",
+    "windows"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dnspy/plugin.yaml",
+        "path": "dap/plugins/dnspy/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dnspy/reqpack.lua",
+        "path": "dap/plugins/dnspy/reqpack.lua"
+      }
+    ]
+  }
+}

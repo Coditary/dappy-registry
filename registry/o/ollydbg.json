@@ -1,0 +1,31 @@
+{
+  "id": "ollydbg",
+  "version": "0.1.0",
+  "description": "ollydbg RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "ollydbg"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ollydbg/plugin.yaml",
+        "path": "dap/plugins/ollydbg/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ollydbg/reqpack.lua",
+        "path": "dap/plugins/ollydbg/reqpack.lua"
+      }
+    ]
+  }
+}

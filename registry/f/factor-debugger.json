@@ -1,0 +1,32 @@
+{
+  "id": "factor-debugger",
+  "version": "0.1.0",
+  "description": "Stack-based Factor listener debugger",
+  "tags": [
+    "language",
+    "dap",
+    "factor",
+    "stack"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/factor-debugger/plugin.yaml",
+        "path": "dap/plugins/factor-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/factor-debugger/reqpack.lua",
+        "path": "dap/plugins/factor-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

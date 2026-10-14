@@ -1,0 +1,30 @@
+{
+  "id": "jlink-gdbserver",
+  "version": "0.1.0",
+  "description": "jlink-gdbserver for Dappy",
+  "tags": [
+    "embedded",
+    "jlink-gdbserver"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/jlink-gdbserver/target.yaml",
+        "path": "dap/targets/jlink-gdbserver/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/jlink-gdbserver/reqpack.lua",
+        "path": "dap/plugins/jlink-gdbserver/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "nvidia-nsight",
+  "version": "0.1.0",
+  "description": "Nsight Graphics and Systems GPU debugger/profiler",
+  "tags": [
+    "graphics",
+    "dap",
+    "gpu",
+    "nvidia"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/nvidia-nsight/plugin.yaml",
+        "path": "dap/plugins/nvidia-nsight/plugin.yaml"
+      }
+    ]
+  }
+}

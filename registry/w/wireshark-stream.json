@@ -1,0 +1,32 @@
+{
+  "id": "wireshark-stream",
+  "version": "0.1.0",
+  "description": "High-level TCP/UDP stream protocol debugger",
+  "tags": [
+    "network",
+    "dap",
+    "network",
+    "stream"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/pyproject.toml",
+        "path": "dap/plugins/network-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/dappy_network_launch/launcher.py",
+        "path": "dap/plugins/network-launchers/dappy_network_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/wireshark-stream/plugin.yaml",
+        "path": "dap/plugins/wireshark-stream/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/wireshark-stream/reqpack.lua",
+        "path": "dap/plugins/wireshark-stream/reqpack.lua"
+      }
+    ]
+  }
+}

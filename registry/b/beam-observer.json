@@ -1,0 +1,32 @@
+{
+  "id": "beam-observer",
+  "version": "0.1.0",
+  "description": "Erlang/Elixir observer and dbg process debugger",
+  "tags": [
+    "niche",
+    "dap",
+    "erlang",
+    "elixir"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/pyproject.toml",
+        "path": "dap/plugins/niche-language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/launcher.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/beam-observer/plugin.yaml",
+        "path": "dap/plugins/beam-observer/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/beam-observer/reqpack.lua",
+        "path": "dap/plugins/beam-observer/reqpack.lua"
+      }
+    ]
+  }
+}

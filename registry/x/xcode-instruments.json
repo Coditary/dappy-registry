@@ -1,0 +1,30 @@
+{
+  "id": "xcode-instruments",
+  "version": "0.1.0",
+  "description": "xcode-instruments for Dappy",
+  "tags": [
+    "mobile",
+    "xcode-instruments"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/pyproject.toml",
+        "path": "dap/plugins/mobile-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/dappy_mobile_launch/launcher.py",
+        "path": "dap/plugins/mobile-launchers/dappy_mobile_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/xcode-instruments/plugin.yaml",
+        "path": "dap/plugins/xcode-instruments/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/xcode-instruments/reqpack.lua",
+        "path": "dap/plugins/xcode-instruments/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "guile-debugger",
+  "version": "0.1.0",
+  "description": "GNU Guile REPL ,debug and ,backtrace",
+  "tags": [
+    "language",
+    "dap",
+    "guile",
+    "scheme"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/guile-debugger/plugin.yaml",
+        "path": "dap/plugins/guile-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/guile-debugger/reqpack.lua",
+        "path": "dap/plugins/guile-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

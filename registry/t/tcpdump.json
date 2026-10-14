@@ -1,0 +1,32 @@
+{
+  "id": "tcpdump",
+  "version": "0.1.0",
+  "description": "Classic CLI network packet capture",
+  "tags": [
+    "network",
+    "dap",
+    "network",
+    "cli"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/pyproject.toml",
+        "path": "dap/plugins/network-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/dappy_network_launch/launcher.py",
+        "path": "dap/plugins/network-launchers/dappy_network_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/tcpdump/plugin.yaml",
+        "path": "dap/plugins/tcpdump/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/tcpdump/reqpack.lua",
+        "path": "dap/plugins/tcpdump/reqpack.lua"
+      }
+    ]
+  }
+}

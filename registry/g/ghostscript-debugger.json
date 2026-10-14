@@ -1,0 +1,32 @@
+{
+  "id": "ghostscript-debugger",
+  "version": "0.1.0",
+  "description": "Interactive PostScript debugger gs -Z",
+  "tags": [
+    "language",
+    "dap",
+    "postscript",
+    "ghostscript"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ghostscript-debugger/plugin.yaml",
+        "path": "dap/plugins/ghostscript-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ghostscript-debugger/reqpack.lua",
+        "path": "dap/plugins/ghostscript-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

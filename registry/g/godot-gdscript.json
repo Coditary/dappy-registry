@@ -1,0 +1,32 @@
+{
+  "id": "godot-gdscript",
+  "version": "0.1.0",
+  "description": "Godot Editor live debugger for game logic",
+  "tags": [
+    "language",
+    "dap",
+    "godot",
+    "gamedev"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/godot-gdscript/plugin.yaml",
+        "path": "dap/plugins/godot-gdscript/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/godot-gdscript/reqpack.lua",
+        "path": "dap/plugins/godot-gdscript/reqpack.lua"
+      }
+    ]
+  }
+}

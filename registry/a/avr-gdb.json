@@ -1,0 +1,30 @@
+{
+  "id": "avr-gdb",
+  "version": "0.1.0",
+  "description": "avr-gdb for Dappy",
+  "tags": [
+    "embedded",
+    "avr-gdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/avr-gdb/plugin.yaml",
+        "path": "dap/plugins/avr-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/avr-gdb/reqpack.lua",
+        "path": "dap/plugins/avr-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

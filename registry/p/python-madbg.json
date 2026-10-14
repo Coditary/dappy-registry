@@ -1,0 +1,62 @@
+{
+  "id": "python-madbg",
+  "version": "0.1.0",
+  "description": "Python madbg remote/preemptive debugger adapter for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "madbg",
+    "attach",
+    "remote"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/plugin.yaml",
+        "path": "dap/plugins/python-madbg/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/attachment.yaml",
+        "path": "dap/plugins/python-madbg/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/pyproject.toml",
+        "path": "dap/plugins/python-madbg/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/requirements.txt",
+        "path": "dap/plugins/python-madbg/requirements.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/madbg_dap/__init__.py",
+        "path": "dap/plugins/python-madbg/madbg_dap/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/madbg_dap/__main__.py",
+        "path": "dap/plugins/python-madbg/madbg_dap/__main__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/madbg_dap/bridge.py",
+        "path": "dap/plugins/python-madbg/madbg_dap/bridge.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/madbg_dap/protocol.py",
+        "path": "dap/plugins/python-madbg/madbg_dap/protocol.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/madbg_dap/session.py",
+        "path": "dap/plugins/python-madbg/madbg_dap/session.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/README.md",
+        "path": "dap/plugins/python-madbg/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/reqpack.lua",
+        "path": "dap/plugins/python-madbg/reqpack.lua"
+      }
+    ]
+  }
+}

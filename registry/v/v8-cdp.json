@@ -1,0 +1,32 @@
+{
+  "id": "v8-cdp",
+  "version": "0.1.0",
+  "description": "Chrome DevTools Protocol for Node.js/V8",
+  "tags": [
+    "bytecode",
+    "dap",
+    "v8",
+    "cdp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/pyproject.toml",
+        "path": "dap/plugins/bytecode-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/dappy_bytecode_launch/launcher.py",
+        "path": "dap/plugins/bytecode-launchers/dappy_bytecode_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/v8-cdp/plugin.yaml",
+        "path": "dap/plugins/v8-cdp/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/v8-cdp/reqpack.lua",
+        "path": "dap/plugins/v8-cdp/reqpack.lua"
+      }
+    ]
+  }
+}

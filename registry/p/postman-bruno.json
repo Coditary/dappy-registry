@@ -1,0 +1,28 @@
+{
+  "id": "postman-bruno",
+  "version": "0.1.0",
+  "description": "HTTP/REST API mock and debug clients",
+  "tags": [
+    "network",
+    "dap",
+    "http",
+    "api"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/pyproject.toml",
+        "path": "dap/plugins/network-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/dappy_network_launch/launcher.py",
+        "path": "dap/plugins/network-launchers/dappy_network_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/postman-bruno/plugin.yaml",
+        "path": "dap/plugins/postman-bruno/plugin.yaml"
+      }
+    ]
+  }
+}

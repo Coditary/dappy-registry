@@ -1,0 +1,28 @@
+{
+  "id": "puredata-maxmsp",
+  "version": "0.1.0",
+  "description": "Visual audio patching with error streams",
+  "tags": [
+    "audio",
+    "dap",
+    "pd",
+    "maxmsp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/audio-launchers/pyproject.toml",
+        "path": "dap/plugins/audio-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/audio-launchers/dappy_audio_launch/launcher.py",
+        "path": "dap/plugins/audio-launchers/dappy_audio_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/puredata-maxmsp/plugin.yaml",
+        "path": "dap/plugins/puredata-maxmsp/plugin.yaml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "jvmti-debugger",
+  "version": "0.1.0",
+  "description": "Native JVM debug interface under Java IDEs",
+  "tags": [
+    "bytecode",
+    "dap",
+    "jvm",
+    "java"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/pyproject.toml",
+        "path": "dap/plugins/bytecode-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/dappy_bytecode_launch/launcher.py",
+        "path": "dap/plugins/bytecode-launchers/dappy_bytecode_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/jvmti-debugger/plugin.yaml",
+        "path": "dap/plugins/jvmti-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/jvmti-debugger/reqpack.lua",
+        "path": "dap/plugins/jvmti-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

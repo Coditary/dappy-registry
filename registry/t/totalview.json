@@ -1,0 +1,32 @@
+{
+  "id": "totalview",
+  "version": "0.1.0",
+  "description": "Massively parallel multi-process debugger",
+  "tags": [
+    "hpc",
+    "dap",
+    "mpi",
+    "parallel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/pyproject.toml",
+        "path": "dap/plugins/hpc-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/dappy_hpc_launch/launcher.py",
+        "path": "dap/plugins/hpc-launchers/dappy_hpc_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/totalview/plugin.yaml",
+        "path": "dap/plugins/totalview/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/totalview/reqpack.lua",
+        "path": "dap/plugins/totalview/reqpack.lua"
+      }
+    ]
+  }
+}

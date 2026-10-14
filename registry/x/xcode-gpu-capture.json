@@ -1,0 +1,32 @@
+{
+  "id": "xcode-gpu-capture",
+  "version": "0.1.0",
+  "description": "Apple Metal GPU frame debugger",
+  "tags": [
+    "graphics",
+    "dap",
+    "gpu",
+    "metal"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/xcode-gpu-capture/plugin.yaml",
+        "path": "dap/plugins/xcode-gpu-capture/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/xcode-gpu-capture/reqpack.lua",
+        "path": "dap/plugins/xcode-gpu-capture/reqpack.lua"
+      }
+    ]
+  }
+}

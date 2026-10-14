@@ -1,0 +1,33 @@
+{
+  "id": "ups",
+  "version": "0.1.0",
+  "description": "Classic C/Fortran source debugger for UNIX",
+  "tags": [
+    "historic",
+    "dap",
+    "unix",
+    "c",
+    "fortran"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ups/plugin.yaml",
+        "path": "dap/plugins/ups/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ups/reqpack.lua",
+        "path": "dap/plugins/ups/reqpack.lua"
+      }
+    ]
+  }
+}

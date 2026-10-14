@@ -1,0 +1,32 @@
+{
+  "id": "typescript-tsc",
+  "version": "0.1.0",
+  "description": "Static type checking as pre-debug analysis (tsc)",
+  "tags": [
+    "language",
+    "dap",
+    "typescript",
+    "static"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/pyproject.toml",
+        "path": "dap/plugins/language-extra-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/dappy_language_extra_launch/launcher.py",
+        "path": "dap/plugins/language-extra-launchers/dappy_language_extra_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/typescript-tsc/plugin.yaml",
+        "path": "dap/plugins/typescript-tsc/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/typescript-tsc/reqpack.lua",
+        "path": "dap/plugins/typescript-tsc/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "capstone-disasm",
+  "version": "0.1.0",
+  "description": "capstone-disasm RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "capstone-disasm"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/capstone-disasm/plugin.yaml",
+        "path": "dap/plugins/capstone-disasm/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/capstone-disasm/reqpack.lua",
+        "path": "dap/plugins/capstone-disasm/reqpack.lua"
+      }
+    ]
+  }
+}

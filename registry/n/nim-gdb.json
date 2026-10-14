@@ -1,0 +1,32 @@
+{
+  "id": "nim-gdb",
+  "version": "0.1.0",
+  "description": "Nim to C/C++ debugging with GDB or LLDB",
+  "tags": [
+    "language",
+    "dap",
+    "nim",
+    "gdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/nim-gdb/plugin.yaml",
+        "path": "dap/plugins/nim-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/nim-gdb/reqpack.lua",
+        "path": "dap/plugins/nim-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

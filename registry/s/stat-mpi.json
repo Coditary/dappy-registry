@@ -1,0 +1,32 @@
+{
+  "id": "stat-mpi",
+  "version": "0.1.0",
+  "description": "Stack trace analysis for thousands of MPI ranks",
+  "tags": [
+    "hpc",
+    "dap",
+    "mpi",
+    "stat"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/pyproject.toml",
+        "path": "dap/plugins/hpc-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/dappy_hpc_launch/launcher.py",
+        "path": "dap/plugins/hpc-launchers/dappy_hpc_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/stat-mpi/plugin.yaml",
+        "path": "dap/plugins/stat-mpi/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/stat-mpi/reqpack.lua",
+        "path": "dap/plugins/stat-mpi/reqpack.lua"
+      }
+    ]
+  }
+}

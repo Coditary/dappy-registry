@@ -1,0 +1,23 @@
+{
+  "id": "firebug",
+  "version": "0.1.0",
+  "description": "Firebug legacy stub",
+  "tags": [
+    "dap",
+    "firebug",
+    "legacy"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/firebug/plugin.yaml",
+        "path": "dap/plugins/firebug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/firebug/reqpack.lua",
+        "path": "dap/plugins/firebug/reqpack.lua"
+      }
+    ]
+  }
+}

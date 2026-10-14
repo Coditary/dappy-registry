@@ -1,0 +1,32 @@
+{
+  "id": "forge-debugger",
+  "version": "0.1.0",
+  "description": "Foundry line-based Solidity CLI debugger",
+  "tags": [
+    "blockchain",
+    "dap",
+    "foundry",
+    "solidity"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/blockchain-launchers/pyproject.toml",
+        "path": "dap/plugins/blockchain-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/blockchain-launchers/dappy_blockchain_launch/launcher.py",
+        "path": "dap/plugins/blockchain-launchers/dappy_blockchain_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/forge-debugger/plugin.yaml",
+        "path": "dap/plugins/forge-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/forge-debugger/reqpack.lua",
+        "path": "dap/plugins/forge-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

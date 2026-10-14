@@ -1,0 +1,32 @@
+{
+  "id": "labview-highlight",
+  "version": "0.1.0",
+  "description": "Visual dataflow debugger with wire animation",
+  "tags": [
+    "domain",
+    "dap",
+    "labview",
+    "dataflow"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/domain-launchers/pyproject.toml",
+        "path": "dap/plugins/domain-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/domain-launchers/dappy_domain_launch/launcher.py",
+        "path": "dap/plugins/domain-launchers/dappy_domain_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/labview-highlight/plugin.yaml",
+        "path": "dap/plugins/labview-highlight/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/labview-highlight/reqpack.lua",
+        "path": "dap/plugins/labview-highlight/reqpack.lua"
+      }
+    ]
+  }
+}

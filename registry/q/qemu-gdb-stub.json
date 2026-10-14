@@ -1,0 +1,32 @@
+{
+  "id": "qemu-gdb-stub",
+  "version": "0.1.0",
+  "description": "QEMU monitor and gdb-remote stub debugging",
+  "tags": [
+    "hardware",
+    "dap",
+    "qemu",
+    "vm"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/pyproject.toml",
+        "path": "dap/plugins/hardware-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/launcher.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qemu-gdb-stub/plugin.yaml",
+        "path": "dap/plugins/qemu-gdb-stub/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qemu-gdb-stub/reqpack.lua",
+        "path": "dap/plugins/qemu-gdb-stub/reqpack.lua"
+      }
+    ]
+  }
+}

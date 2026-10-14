@@ -1,0 +1,27 @@
+{
+  "id": "native-gdb",
+  "version": "0.1.0",
+  "description": "GNU GDB MI3 DAP bridge for C, C++, Rust, Zig",
+  "tags": [
+    "dap",
+    "adapter",
+    "gdb",
+    "c",
+    "cpp",
+    "rust",
+    "zig"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-gdb/plugin.yaml",
+        "path": "dap/plugins/native-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-gdb/reqpack.lua",
+        "path": "dap/plugins/native-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

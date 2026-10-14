@@ -1,0 +1,33 @@
+{
+  "id": "codeview",
+  "version": "0.1.0",
+  "description": "Microsoft historic DOS debugger",
+  "tags": [
+    "historic",
+    "dap",
+    "historic",
+    "dos",
+    "microsoft"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/codeview/plugin.yaml",
+        "path": "dap/plugins/codeview/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/codeview/reqpack.lua",
+        "path": "dap/plugins/codeview/reqpack.lua"
+      }
+    ]
+  }
+}

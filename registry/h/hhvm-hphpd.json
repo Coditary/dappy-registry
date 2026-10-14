@@ -1,0 +1,32 @@
+{
+  "id": "hhvm-hphpd",
+  "version": "0.1.0",
+  "description": "Command-line debugger for HipHop VM PHP/Hack",
+  "tags": [
+    "bytecode",
+    "dap",
+    "hhvm",
+    "php"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/pyproject.toml",
+        "path": "dap/plugins/bytecode-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/dappy_bytecode_launch/launcher.py",
+        "path": "dap/plugins/bytecode-launchers/dappy_bytecode_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hhvm-hphpd/plugin.yaml",
+        "path": "dap/plugins/hhvm-hphpd/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hhvm-hphpd/reqpack.lua",
+        "path": "dap/plugins/hhvm-hphpd/reqpack.lua"
+      }
+    ]
+  }
+}

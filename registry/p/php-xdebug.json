@@ -1,0 +1,23 @@
+{
+  "id": "php-xdebug",
+  "version": "0.1.0",
+  "description": "PHP Xdebug debugger",
+  "tags": [
+    "dap",
+    "php",
+    "xdebug"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/php-xdebug/plugin.yaml",
+        "path": "dap/plugins/php-xdebug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/php-xdebug/reqpack.lua",
+        "path": "dap/plugins/php-xdebug/reqpack.lua"
+      }
+    ]
+  }
+}

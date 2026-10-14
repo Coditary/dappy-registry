@@ -1,0 +1,30 @@
+{
+  "id": "android-studio",
+  "version": "0.1.0",
+  "description": "android-studio for Dappy",
+  "tags": [
+    "mobile",
+    "android-studio"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/pyproject.toml",
+        "path": "dap/plugins/mobile-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/dappy_mobile_launch/launcher.py",
+        "path": "dap/plugins/mobile-launchers/dappy_mobile_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/android-studio/plugin.yaml",
+        "path": "dap/plugins/android-studio/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/android-studio/reqpack.lua",
+        "path": "dap/plugins/android-studio/reqpack.lua"
+      }
+    ]
+  }
+}

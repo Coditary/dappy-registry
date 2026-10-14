@@ -1,0 +1,30 @@
+{
+  "id": "flipper",
+  "version": "0.1.0",
+  "description": "flipper for Dappy",
+  "tags": [
+    "mobile",
+    "flipper"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/pyproject.toml",
+        "path": "dap/plugins/mobile-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/dappy_mobile_launch/launcher.py",
+        "path": "dap/plugins/mobile-launchers/dappy_mobile_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/flipper/plugin.yaml",
+        "path": "dap/plugins/flipper/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/flipper/reqpack.lua",
+        "path": "dap/plugins/flipper/reqpack.lua"
+      }
+    ]
+  }
+}

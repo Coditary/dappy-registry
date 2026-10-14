@@ -1,0 +1,31 @@
+{
+  "id": "duma",
+  "version": "0.1.0",
+  "description": "duma analysis target",
+  "tags": [
+    "target",
+    "sanitizer",
+    "duma"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/duma/target.yaml",
+        "path": "dap/targets/duma/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/duma/reqpack.lua",
+        "path": "dap/plugins/duma/reqpack.lua"
+      }
+    ]
+  }
+}

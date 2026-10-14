@@ -1,0 +1,25 @@
+{
+  "id": "windbg-cdb",
+  "version": "0.1.0",
+  "description": "Microsoft WinDbg/CDB for Windows",
+  "tags": [
+    "dap",
+    "adapter",
+    "windbg",
+    "cdb",
+    "windows"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/windbg-cdb/plugin.yaml",
+        "path": "dap/plugins/windbg-cdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/windbg-cdb/reqpack.lua",
+        "path": "dap/plugins/windbg-cdb/reqpack.lua"
+      }
+    ]
+  }
+}

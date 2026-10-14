@@ -1,0 +1,32 @@
+{
+  "id": "ruby-debug",
+  "version": "0.1.0",
+  "description": "Classic Ruby debug library debugger",
+  "tags": [
+    "language",
+    "dap",
+    "ruby",
+    "scripting"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ruby-debug/plugin.yaml",
+        "path": "dap/plugins/ruby-debug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ruby-debug/reqpack.lua",
+        "path": "dap/plugins/ruby-debug/reqpack.lua"
+      }
+    ]
+  }
+}

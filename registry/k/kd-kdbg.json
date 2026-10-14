@@ -1,0 +1,32 @@
+{
+  "id": "kd-kdbg",
+  "version": "0.1.0",
+  "description": "ReactOS / Windows NT kernel debugger",
+  "tags": [
+    "kernel",
+    "dap",
+    "windows",
+    "kernel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kernel-launchers/pyproject.toml",
+        "path": "dap/plugins/kernel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kernel-launchers/dappy_kernel_launch/launcher.py",
+        "path": "dap/plugins/kernel-launchers/dappy_kernel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kd-kdbg/plugin.yaml",
+        "path": "dap/plugins/kd-kdbg/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kd-kdbg/reqpack.lua",
+        "path": "dap/plugins/kd-kdbg/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "kadb-ddb",
+  "version": "0.1.0",
+  "description": "In-kernel debugger for BSD and UNIX",
+  "tags": [
+    "historic",
+    "dap",
+    "bsd",
+    "unix",
+    "kernel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kadb-ddb/plugin.yaml",
+        "path": "dap/plugins/kadb-ddb/plugin.yaml"
+      }
+    ]
+  }
+}

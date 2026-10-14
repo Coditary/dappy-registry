@@ -1,0 +1,29 @@
+{
+  "id": "airbrake",
+  "version": "0.1.0",
+  "description": "Cloud exception and error tracking",
+  "tags": [
+    "observability",
+    "dap",
+    "non-breaking",
+    "errors",
+    "saas"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/pyproject.toml",
+        "path": "dap/plugins/observability-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch/launcher.py",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/airbrake/plugin.yaml",
+        "path": "dap/plugins/airbrake/plugin.yaml"
+      }
+    ]
+  }
+}

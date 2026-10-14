@@ -1,0 +1,32 @@
+{
+  "id": "vala-gdb",
+  "version": "0.1.0",
+  "description": "Vala to C debugging via GDB",
+  "tags": [
+    "language",
+    "dap",
+    "vala",
+    "gdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/vala-gdb/plugin.yaml",
+        "path": "dap/plugins/vala-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/vala-gdb/reqpack.lua",
+        "path": "dap/plugins/vala-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

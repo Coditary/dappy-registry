@@ -1,0 +1,30 @@
+{
+  "id": "pls-ude",
+  "version": "0.1.0",
+  "description": "pls-ude for Dappy",
+  "tags": [
+    "embedded",
+    "pls-ude"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pls-ude/plugin.yaml",
+        "path": "dap/plugins/pls-ude/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pls-ude/reqpack.lua",
+        "path": "dap/plugins/pls-ude/reqpack.lua"
+      }
+    ]
+  }
+}

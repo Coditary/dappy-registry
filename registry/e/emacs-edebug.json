@@ -1,0 +1,32 @@
+{
+  "id": "emacs-edebug",
+  "version": "0.1.0",
+  "description": "Symbolic Elisp source debugger",
+  "tags": [
+    "language",
+    "dap",
+    "elisp",
+    "emacs"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/pyproject.toml",
+        "path": "dap/plugins/language-extra-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/dappy_language_extra_launch/launcher.py",
+        "path": "dap/plugins/language-extra-launchers/dappy_language_extra_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/emacs-edebug/plugin.yaml",
+        "path": "dap/plugins/emacs-edebug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/emacs-edebug/reqpack.lua",
+        "path": "dap/plugins/emacs-edebug/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "pg-explain-visualizer",
+  "version": "0.1.0",
+  "description": "Visual PostgreSQL query plan tree debugger",
+  "tags": [
+    "domain",
+    "dap",
+    "postgresql",
+    "visual"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/domain-launchers/pyproject.toml",
+        "path": "dap/plugins/domain-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/domain-launchers/dappy_domain_launch/launcher.py",
+        "path": "dap/plugins/domain-launchers/dappy_domain_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pg-explain-visualizer/plugin.yaml",
+        "path": "dap/plugins/pg-explain-visualizer/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pg-explain-visualizer/reqpack.lua",
+        "path": "dap/plugins/pg-explain-visualizer/reqpack.lua"
+      }
+    ]
+  }
+}

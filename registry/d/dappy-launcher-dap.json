@@ -1,0 +1,40 @@
+{
+  "id": "dappy-launcher-dap",
+  "version": "0.1.0",
+  "description": "DAP bridge that launches external debuggers and tools for Dappy plugin manifests",
+  "tags": [
+    "dap",
+    "adapter",
+    "bridge",
+    "launcher"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dappy-launcher-dap/README.md",
+        "path": "dap/plugins/dappy-launcher-dap/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dappy-launcher-dap/dappy_launcher_dap/__init__.py",
+        "path": "dap/plugins/dappy-launcher-dap/dappy_launcher_dap/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dappy-launcher-dap/dappy_launcher_dap/__main__.py",
+        "path": "dap/plugins/dappy-launcher-dap/dappy_launcher_dap/__main__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dappy-launcher-dap/dappy_launcher_dap/adapter.py",
+        "path": "dap/plugins/dappy-launcher-dap/dappy_launcher_dap/adapter.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dappy-launcher-dap/pyproject.toml",
+        "path": "dap/plugins/dappy-launcher-dap/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dappy-launcher-dap/reqpack.lua",
+        "path": "dap/plugins/dappy-launcher-dap/reqpack.lua"
+      }
+    ]
+  }
+}

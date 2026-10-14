@@ -1,0 +1,32 @@
+{
+  "id": "erratum-debugger",
+  "version": "0.1.0",
+  "description": "Macro-expansion debugger for Lisp/Scheme",
+  "tags": [
+    "niche",
+    "dap",
+    "scheme",
+    "lisp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/pyproject.toml",
+        "path": "dap/plugins/niche-language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/launcher.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/erratum-debugger/plugin.yaml",
+        "path": "dap/plugins/erratum-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/erratum-debugger/reqpack.lua",
+        "path": "dap/plugins/erratum-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

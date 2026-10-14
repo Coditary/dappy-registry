@@ -1,0 +1,31 @@
+{
+  "id": "instrumentation-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-instrumentation-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/__init__.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/launcher.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/pyproject.toml",
+        "path": "dap/plugins/instrumentation-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/reqpack.lua",
+        "path": "dap/plugins/instrumentation-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

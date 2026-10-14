@@ -1,0 +1,32 @@
+{
+  "id": "rstudio-debugger",
+  "version": "0.1.0",
+  "description": "Integrated R debugger in RStudio",
+  "tags": [
+    "language",
+    "dap",
+    "r",
+    "statistics"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rstudio-debugger/plugin.yaml",
+        "path": "dap/plugins/rstudio-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rstudio-debugger/reqpack.lua",
+        "path": "dap/plugins/rstudio-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

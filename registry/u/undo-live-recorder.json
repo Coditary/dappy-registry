@@ -1,0 +1,32 @@
+{
+  "id": "undo-live-recorder",
+  "version": "0.1.0",
+  "description": "Commercial time-travel debugger for Linux servers",
+  "tags": [
+    "timetravel",
+    "dap",
+    "undo",
+    "replay"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/pyproject.toml",
+        "path": "dap/plugins/timetravel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/dappy_timetravel_launch/launcher.py",
+        "path": "dap/plugins/timetravel-launchers/dappy_timetravel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/undo-live-recorder/plugin.yaml",
+        "path": "dap/plugins/undo-live-recorder/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/undo-live-recorder/reqpack.lua",
+        "path": "dap/plugins/undo-live-recorder/reqpack.lua"
+      }
+    ]
+  }
+}

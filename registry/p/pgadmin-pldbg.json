@@ -1,0 +1,32 @@
+{
+  "id": "pgadmin-pldbg",
+  "version": "0.1.0",
+  "description": "PostgreSQL function and trigger debugger",
+  "tags": [
+    "database",
+    "dap",
+    "postgresql",
+    "pldbg"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/database-launchers/pyproject.toml",
+        "path": "dap/plugins/database-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/database-launchers/dappy_database_launch/launcher.py",
+        "path": "dap/plugins/database-launchers/dappy_database_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pgadmin-pldbg/plugin.yaml",
+        "path": "dap/plugins/pgadmin-pldbg/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pgadmin-pldbg/reqpack.lua",
+        "path": "dap/plugins/pgadmin-pldbg/reqpack.lua"
+      }
+    ]
+  }
+}

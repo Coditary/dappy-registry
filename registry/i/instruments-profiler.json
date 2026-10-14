@@ -1,0 +1,32 @@
+{
+  "id": "instruments-profiler",
+  "version": "0.1.0",
+  "description": "Apple Time Profiler, Leaks, Core Animation",
+  "tags": [
+    "mobile",
+    "dap",
+    "ios",
+    "swift"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/pyproject.toml",
+        "path": "dap/plugins/mobile-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/dappy_mobile_launch/launcher.py",
+        "path": "dap/plugins/mobile-launchers/dappy_mobile_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instruments-profiler/plugin.yaml",
+        "path": "dap/plugins/instruments-profiler/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instruments-profiler/reqpack.lua",
+        "path": "dap/plugins/instruments-profiler/reqpack.lua"
+      }
+    ]
+  }
+}

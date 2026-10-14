@@ -1,0 +1,32 @@
+{
+  "id": "sigrok-pulseview",
+  "version": "0.1.0",
+  "description": "Open-source logic analyzer debugging",
+  "tags": [
+    "hardware",
+    "dap",
+    "sigrok",
+    "logic"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/pyproject.toml",
+        "path": "dap/plugins/hardware-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/launcher.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sigrok-pulseview/plugin.yaml",
+        "path": "dap/plugins/sigrok-pulseview/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sigrok-pulseview/reqpack.lua",
+        "path": "dap/plugins/sigrok-pulseview/reqpack.lua"
+      }
+    ]
+  }
+}

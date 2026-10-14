@@ -1,0 +1,33 @@
+{
+  "id": "turbo-debugger",
+  "version": "0.1.0",
+  "description": "Borland Turbo Pascal/C era debugger",
+  "tags": [
+    "historic",
+    "dap",
+    "historic",
+    "borland",
+    "dos"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/turbo-debugger/plugin.yaml",
+        "path": "dap/plugins/turbo-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/turbo-debugger/reqpack.lua",
+        "path": "dap/plugins/turbo-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

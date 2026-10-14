@@ -1,0 +1,32 @@
+{
+  "id": "autohotkey-debugger",
+  "version": "0.1.0",
+  "description": "SciTE4AutoHotkey interactive breakpoint debugger",
+  "tags": [
+    "language",
+    "dap",
+    "ahk",
+    "windows"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/autohotkey-debugger/plugin.yaml",
+        "path": "dap/plugins/autohotkey-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/autohotkey-debugger/reqpack.lua",
+        "path": "dap/plugins/autohotkey-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

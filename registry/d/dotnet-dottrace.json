@@ -1,0 +1,23 @@
+{
+  "id": "dotnet-dottrace",
+  "version": "0.1.0",
+  "description": "JetBrains dotTrace profiler",
+  "tags": [
+    "target",
+    "dotnet",
+    "profiling"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dotnet-dottrace/target.yaml",
+        "path": "dap/targets/dotnet-dottrace/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dotnet-dottrace/reqpack.lua",
+        "path": "dap/plugins/dotnet-dottrace/reqpack.lua"
+      }
+    ]
+  }
+}

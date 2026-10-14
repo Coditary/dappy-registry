@@ -1,0 +1,23 @@
+{
+  "id": "firefox-devtools",
+  "version": "0.1.0",
+  "description": "Firefox remote debugging",
+  "tags": [
+    "dap",
+    "firefox",
+    "browser"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/firefox-devtools/plugin.yaml",
+        "path": "dap/plugins/firefox-devtools/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/firefox-devtools/reqpack.lua",
+        "path": "dap/plugins/firefox-devtools/reqpack.lua"
+      }
+    ]
+  }
+}

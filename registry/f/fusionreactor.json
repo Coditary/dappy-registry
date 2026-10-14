@@ -1,0 +1,23 @@
+{
+  "id": "fusionreactor",
+  "version": "0.1.0",
+  "description": "FusionReactor attach",
+  "tags": [
+    "target",
+    "java",
+    "fusionreactor"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/fusionreactor/target.yaml",
+        "path": "dap/targets/fusionreactor/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/fusionreactor/reqpack.lua",
+        "path": "dap/plugins/fusionreactor/reqpack.lua"
+      }
+    ]
+  }
+}

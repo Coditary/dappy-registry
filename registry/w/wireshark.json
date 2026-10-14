@@ -1,0 +1,28 @@
+{
+  "id": "wireshark",
+  "version": "0.1.0",
+  "description": "Standard packet analyzer for network-level debugging",
+  "tags": [
+    "network",
+    "dap",
+    "network",
+    "pcap"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/pyproject.toml",
+        "path": "dap/plugins/network-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/network-launchers/dappy_network_launch/launcher.py",
+        "path": "dap/plugins/network-launchers/dappy_network_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/wireshark/plugin.yaml",
+        "path": "dap/plugins/wireshark/plugin.yaml"
+      }
+    ]
+  }
+}

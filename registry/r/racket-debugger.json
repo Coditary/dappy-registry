@@ -1,0 +1,32 @@
+{
+  "id": "racket-debugger",
+  "version": "0.1.0",
+  "description": "Visual syntax and execution debugger",
+  "tags": [
+    "niche",
+    "dap",
+    "racket",
+    "scheme"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/pyproject.toml",
+        "path": "dap/plugins/niche-language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/launcher.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/racket-debugger/plugin.yaml",
+        "path": "dap/plugins/racket-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/racket-debugger/reqpack.lua",
+        "path": "dap/plugins/racket-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "language-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-language-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/README.md",
+        "path": "dap/plugins/language-launchers/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/__init__.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/reqpack.lua",
+        "path": "dap/plugins/language-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

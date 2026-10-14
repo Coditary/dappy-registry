@@ -1,0 +1,32 @@
+{
+  "id": "grpcurl-bloomrpc",
+  "version": "0.1.0",
+  "description": "gRPC service inspection and debugging",
+  "tags": [
+    "data",
+    "dap",
+    "grpc",
+    "rpc"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/data-protocol-launchers/pyproject.toml",
+        "path": "dap/plugins/data-protocol-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/data-protocol-launchers/dappy_data_protocol_launch/launcher.py",
+        "path": "dap/plugins/data-protocol-launchers/dappy_data_protocol_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/grpcurl-bloomrpc/plugin.yaml",
+        "path": "dap/plugins/grpcurl-bloomrpc/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/grpcurl-bloomrpc/reqpack.lua",
+        "path": "dap/plugins/grpcurl-bloomrpc/reqpack.lua"
+      }
+    ]
+  }
+}

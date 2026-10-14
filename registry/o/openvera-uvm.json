@@ -1,0 +1,28 @@
+{
+  "id": "openvera-uvm",
+  "version": "0.1.0",
+  "description": "Microchip design verification debugger",
+  "tags": [
+    "hardware",
+    "dap",
+    "uvm",
+    "verification"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/pyproject.toml",
+        "path": "dap/plugins/hardware-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/launcher.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/openvera-uvm/plugin.yaml",
+        "path": "dap/plugins/openvera-uvm/plugin.yaml"
+      }
+    ]
+  }
+}

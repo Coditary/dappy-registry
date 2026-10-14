@@ -1,0 +1,24 @@
+{
+  "id": "dotnet-coreclr",
+  "version": "0.1.0",
+  "description": ".NET CoreCLR netcoredbg",
+  "tags": [
+    "dap",
+    "dotnet",
+    "coreclr",
+    "csharp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dotnet-coreclr/plugin.yaml",
+        "path": "dap/plugins/dotnet-coreclr/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dotnet-coreclr/reqpack.lua",
+        "path": "dap/plugins/dotnet-coreclr/reqpack.lua"
+      }
+    ]
+  }
+}

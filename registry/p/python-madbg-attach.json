@@ -1,0 +1,21 @@
+{
+  "id": "python-madbg-attach",
+  "version": "0.1.0",
+  "description": "Attach to a running Python process via madbg (Dappy companion manifest)",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "madbg",
+    "attach"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/attach-plugin.yaml",
+        "path": "dap/plugins/python-madbg-attach.yaml"
+      }
+    ]
+  }
+}

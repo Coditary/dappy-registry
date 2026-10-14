@@ -1,0 +1,32 @@
+{
+  "id": "ruby-pry",
+  "version": "0.1.0",
+  "description": "Ruby Pry REPL debugger",
+  "tags": [
+    "language",
+    "dap",
+    "ruby",
+    "repl"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ruby-pry/plugin.yaml",
+        "path": "dap/plugins/ruby-pry/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ruby-pry/reqpack.lua",
+        "path": "dap/plugins/ruby-pry/reqpack.lua"
+      }
+    ]
+  }
+}

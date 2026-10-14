@@ -14,6 +14,10 @@
       {
         "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rsp-attach/target.yaml",
         "path": "dap/targets/rsp-attach/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rsp-attach/reqpack.lua",
+        "path": "dap/plugins/rsp-attach/reqpack.lua"
       }
     ]
   }

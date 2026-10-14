@@ -1,0 +1,24 @@
+{
+  "id": "perf-record",
+  "version": "0.1.0",
+  "description": "Linux perf record profiling target",
+  "tags": [
+    "target",
+    "perf",
+    "profiling",
+    "analysis"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/perf-record/target.yaml",
+        "path": "dap/targets/perf-record/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/perf-record/reqpack.lua",
+        "path": "dap/plugins/perf-record/reqpack.lua"
+      }
+    ]
+  }
+}

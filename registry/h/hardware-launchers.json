@@ -1,0 +1,31 @@
+{
+  "id": "hardware-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-hardware-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/__init__.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/launcher.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/pyproject.toml",
+        "path": "dap/plugins/hardware-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/reqpack.lua",
+        "path": "dap/plugins/hardware-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "vivado-modelsim",
+  "version": "0.1.0",
+  "description": "VHDL/Verilog FPGA simulation debugger",
+  "tags": [
+    "hardware",
+    "dap",
+    "fpga",
+    "verilog"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/pyproject.toml",
+        "path": "dap/plugins/hardware-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/launcher.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/vivado-modelsim/plugin.yaml",
+        "path": "dap/plugins/vivado-modelsim/plugin.yaml"
+      }
+    ]
+  }
+}

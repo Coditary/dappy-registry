@@ -1,0 +1,32 @@
+{
+  "id": "python-dis",
+  "version": "0.1.0",
+  "description": "Bytecode disassembler for Python inspection",
+  "tags": [
+    "bytecode",
+    "dap",
+    "python",
+    "bytecode"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/pyproject.toml",
+        "path": "dap/plugins/bytecode-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bytecode-launchers/dappy_bytecode_launch/launcher.py",
+        "path": "dap/plugins/bytecode-launchers/dappy_bytecode_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-dis/plugin.yaml",
+        "path": "dap/plugins/python-dis/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-dis/reqpack.lua",
+        "path": "dap/plugins/python-dis/reqpack.lua"
+      }
+    ]
+  }
+}

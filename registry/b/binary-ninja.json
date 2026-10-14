@@ -1,0 +1,31 @@
+{
+  "id": "binary-ninja",
+  "version": "0.1.0",
+  "description": "binary-ninja RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "binary-ninja"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/binary-ninja/plugin.yaml",
+        "path": "dap/plugins/binary-ninja/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/binary-ninja/reqpack.lua",
+        "path": "dap/plugins/binary-ninja/reqpack.lua"
+      }
+    ]
+  }
+}

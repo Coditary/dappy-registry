@@ -1,0 +1,30 @@
+{
+  "id": "new-relic-apm",
+  "version": "0.1.0",
+  "description": "Performance and error debugging in cloud environments",
+  "tags": [
+    "observability",
+    "dap",
+    "non-breaking",
+    "apm",
+    "performance",
+    "saas"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/pyproject.toml",
+        "path": "dap/plugins/observability-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch/launcher.py",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/new-relic-apm/plugin.yaml",
+        "path": "dap/plugins/new-relic-apm/plugin.yaml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "openocd",
+  "version": "0.1.0",
+  "description": "openocd for Dappy",
+  "tags": [
+    "embedded",
+    "openocd"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/openocd/target.yaml",
+        "path": "dap/targets/openocd/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/openocd/reqpack.lua",
+        "path": "dap/plugins/openocd/reqpack.lua"
+      }
+    ]
+  }
+}

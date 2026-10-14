@@ -1,0 +1,32 @@
+{
+  "id": "jupyter-debugger",
+  "version": "0.1.0",
+  "description": "IPython kernel debugger for notebook cells",
+  "tags": [
+    "niche",
+    "dap",
+    "jupyter",
+    "ipython"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/pyproject.toml",
+        "path": "dap/plugins/niche-language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/launcher.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/jupyter-debugger/plugin.yaml",
+        "path": "dap/plugins/jupyter-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/jupyter-debugger/reqpack.lua",
+        "path": "dap/plugins/jupyter-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

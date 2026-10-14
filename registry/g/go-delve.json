@@ -1,0 +1,24 @@
+{
+  "id": "go-delve",
+  "version": "0.1.0",
+  "description": "Go Delve debugger (dlv dap)",
+  "tags": [
+    "dap",
+    "adapter",
+    "go",
+    "delve"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/go-delve/plugin.yaml",
+        "path": "dap/plugins/go-delve/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/go-delve/reqpack.lua",
+        "path": "dap/plugins/go-delve/reqpack.lua"
+      }
+    ]
+  }
+}

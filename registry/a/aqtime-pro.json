@@ -1,0 +1,27 @@
+{
+  "id": "aqtime-pro",
+  "version": "0.1.0",
+  "description": "aqtime-pro analysis target",
+  "tags": [
+    "target",
+    "sanitizer",
+    "aqtime-pro"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/aqtime-pro/target.yaml",
+        "path": "dap/targets/aqtime-pro/target.yaml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "kdb-linux",
+  "version": "0.1.0",
+  "description": "In-kernel text debugger on panic or serial",
+  "tags": [
+    "kernel",
+    "dap",
+    "linux",
+    "kernel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kernel-launchers/pyproject.toml",
+        "path": "dap/plugins/kernel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kernel-launchers/dappy_kernel_launch/launcher.py",
+        "path": "dap/plugins/kernel-launchers/dappy_kernel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kdb-linux/plugin.yaml",
+        "path": "dap/plugins/kdb-linux/plugin.yaml"
+      }
+    ]
+  }
+}

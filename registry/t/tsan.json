@@ -1,0 +1,31 @@
+{
+  "id": "tsan",
+  "version": "0.1.0",
+  "description": "tsan analysis target",
+  "tags": [
+    "target",
+    "sanitizer",
+    "tsan"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/tsan/target.yaml",
+        "path": "dap/targets/tsan/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/tsan/reqpack.lua",
+        "path": "dap/plugins/tsan/reqpack.lua"
+      }
+    ]
+  }
+}

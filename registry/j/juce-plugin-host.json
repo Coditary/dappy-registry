@@ -1,0 +1,28 @@
+{
+  "id": "juce-plugin-host",
+  "version": "0.1.0",
+  "description": "VST/AU plugin test host for DSP debugging",
+  "tags": [
+    "audio",
+    "dap",
+    "dsp",
+    "vst"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/audio-launchers/pyproject.toml",
+        "path": "dap/plugins/audio-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/audio-launchers/dappy_audio_launch/launcher.py",
+        "path": "dap/plugins/audio-launchers/dappy_audio_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/juce-plugin-host/plugin.yaml",
+        "path": "dap/plugins/juce-plugin-host/plugin.yaml"
+      }
+    ]
+  }
+}

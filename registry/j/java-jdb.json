@@ -1,0 +1,24 @@
+{
+  "id": "java-jdb",
+  "version": "0.1.0",
+  "description": "JDK JDB Java debugger",
+  "tags": [
+    "dap",
+    "java",
+    "jdb",
+    "jdwp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/java-jdb/plugin.yaml",
+        "path": "dap/plugins/java-jdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/java-jdb/reqpack.lua",
+        "path": "dap/plugins/java-jdb/reqpack.lua"
+      }
+    ]
+  }
+}

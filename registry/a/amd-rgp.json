@@ -1,0 +1,32 @@
+{
+  "id": "amd-rgp",
+  "version": "0.1.0",
+  "description": "Radeon GPU Profiler and AMD developer tools",
+  "tags": [
+    "graphics",
+    "dap",
+    "gpu",
+    "amd"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/amd-rgp/plugin.yaml",
+        "path": "dap/plugins/amd-rgp/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/amd-rgp/reqpack.lua",
+        "path": "dap/plugins/amd-rgp/reqpack.lua"
+      }
+    ]
+  }
+}

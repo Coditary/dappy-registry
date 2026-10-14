@@ -1,0 +1,31 @@
+{
+  "id": "hpc-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-hpc-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/dappy_hpc_launch/__init__.py",
+        "path": "dap/plugins/hpc-launchers/dappy_hpc_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/dappy_hpc_launch/launcher.py",
+        "path": "dap/plugins/hpc-launchers/dappy_hpc_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/pyproject.toml",
+        "path": "dap/plugins/hpc-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hpc-launchers/reqpack.lua",
+        "path": "dap/plugins/hpc-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

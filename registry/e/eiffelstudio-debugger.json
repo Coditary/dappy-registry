@@ -1,0 +1,32 @@
+{
+  "id": "eiffelstudio-debugger",
+  "version": "0.1.0",
+  "description": "Contract-based visual Eiffel debugger",
+  "tags": [
+    "language",
+    "dap",
+    "eiffel",
+    "contracts"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/eiffelstudio-debugger/plugin.yaml",
+        "path": "dap/plugins/eiffelstudio-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/eiffelstudio-debugger/reqpack.lua",
+        "path": "dap/plugins/eiffelstudio-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

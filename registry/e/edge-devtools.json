@@ -1,0 +1,23 @@
+{
+  "id": "edge-devtools",
+  "version": "0.1.0",
+  "description": "Microsoft Edge DevTools CDP",
+  "tags": [
+    "dap",
+    "edge",
+    "browser"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/edge-devtools/plugin.yaml",
+        "path": "dap/plugins/edge-devtools/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/edge-devtools/reqpack.lua",
+        "path": "dap/plugins/edge-devtools/reqpack.lua"
+      }
+    ]
+  }
+}

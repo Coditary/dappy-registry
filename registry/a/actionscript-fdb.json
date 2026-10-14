@@ -1,0 +1,32 @@
+{
+  "id": "actionscript-fdb",
+  "version": "0.1.0",
+  "description": "ActionScript 3 Flash command-line debugger",
+  "tags": [
+    "language",
+    "dap",
+    "actionscript",
+    "flash"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/actionscript-fdb/plugin.yaml",
+        "path": "dap/plugins/actionscript-fdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/actionscript-fdb/reqpack.lua",
+        "path": "dap/plugins/actionscript-fdb/reqpack.lua"
+      }
+    ]
+  }
+}

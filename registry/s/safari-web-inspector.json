@@ -1,0 +1,23 @@
+{
+  "id": "safari-web-inspector",
+  "version": "0.1.0",
+  "description": "Safari Web Inspector macOS",
+  "tags": [
+    "dap",
+    "safari",
+    "webkit"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/safari-web-inspector/plugin.yaml",
+        "path": "dap/plugins/safari-web-inspector/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/safari-web-inspector/reqpack.lua",
+        "path": "dap/plugins/safari-web-inspector/reqpack.lua"
+      }
+    ]
+  }
+}

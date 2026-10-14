@@ -1,0 +1,31 @@
+{
+  "id": "niche-language-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-niche-language-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/__init__.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/launcher.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/pyproject.toml",
+        "path": "dap/plugins/niche-language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/reqpack.lua",
+        "path": "dap/plugins/niche-language-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

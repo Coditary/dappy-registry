@@ -1,0 +1,31 @@
+{
+  "id": "timetravel-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-timetravel-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/dappy_timetravel_launch/__init__.py",
+        "path": "dap/plugins/timetravel-launchers/dappy_timetravel_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/dappy_timetravel_launch/launcher.py",
+        "path": "dap/plugins/timetravel-launchers/dappy_timetravel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/pyproject.toml",
+        "path": "dap/plugins/timetravel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/reqpack.lua",
+        "path": "dap/plugins/timetravel-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

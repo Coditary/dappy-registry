@@ -1,0 +1,32 @@
+{
+  "id": "kgdb",
+  "version": "0.1.0",
+  "description": "Linux kernel debugging via GDB on second machine",
+  "tags": [
+    "kernel",
+    "dap",
+    "linux",
+    "gdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kernel-launchers/pyproject.toml",
+        "path": "dap/plugins/kernel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kernel-launchers/dappy_kernel_launch/launcher.py",
+        "path": "dap/plugins/kernel-launchers/dappy_kernel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kgdb/plugin.yaml",
+        "path": "dap/plugins/kgdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/kgdb/reqpack.lua",
+        "path": "dap/plugins/kgdb/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ada-gnatdbg",
+  "version": "0.1.0",
+  "description": "GNAT Ada debugger via gnatdbg/GDB backend",
+  "tags": [
+    "language",
+    "dap",
+    "ada",
+    "gnat"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ada-gnatdbg/plugin.yaml",
+        "path": "dap/plugins/ada-gnatdbg/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ada-gnatdbg/reqpack.lua",
+        "path": "dap/plugins/ada-gnatdbg/reqpack.lua"
+      }
+    ]
+  }
+}

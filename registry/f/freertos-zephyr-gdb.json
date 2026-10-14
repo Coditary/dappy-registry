@@ -1,0 +1,32 @@
+{
+  "id": "freertos-zephyr-gdb",
+  "version": "0.1.0",
+  "description": "RTOS-aware JTAG/OpenOCD GDB debugging",
+  "tags": [
+    "rtos",
+    "dap",
+    "freertos",
+    "zephyr"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/microkernel-launchers/pyproject.toml",
+        "path": "dap/plugins/microkernel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/microkernel-launchers/dappy_microkernel_launch/launcher.py",
+        "path": "dap/plugins/microkernel-launchers/dappy_microkernel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/freertos-zephyr-gdb/plugin.yaml",
+        "path": "dap/plugins/freertos-zephyr-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/freertos-zephyr-gdb/reqpack.lua",
+        "path": "dap/plugins/freertos-zephyr-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

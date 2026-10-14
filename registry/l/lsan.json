@@ -1,0 +1,31 @@
+{
+  "id": "lsan",
+  "version": "0.1.0",
+  "description": "Fast standalone memory leak detector",
+  "tags": [
+    "sanitizer",
+    "analysis",
+    "lsan"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/lsan/target.yaml",
+        "path": "dap/targets/lsan/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/lsan/reqpack.lua",
+        "path": "dap/plugins/lsan/reqpack.lua"
+      }
+    ]
+  }
+}

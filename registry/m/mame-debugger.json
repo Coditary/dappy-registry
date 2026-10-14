@@ -1,0 +1,32 @@
+{
+  "id": "mame-debugger",
+  "version": "0.1.0",
+  "description": "Arcade emulator CPU/memory debugger",
+  "tags": [
+    "hardware",
+    "dap",
+    "mame",
+    "retro"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/pyproject.toml",
+        "path": "dap/plugins/hardware-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/hardware-launchers/dappy_hardware_launch/launcher.py",
+        "path": "dap/plugins/hardware-launchers/dappy_hardware_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mame-debugger/plugin.yaml",
+        "path": "dap/plugins/mame-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mame-debugger/reqpack.lua",
+        "path": "dap/plugins/mame-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

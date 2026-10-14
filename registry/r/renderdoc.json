@@ -1,0 +1,28 @@
+{
+  "id": "renderdoc",
+  "version": "0.1.0",
+  "description": "Open-source GPU debugger for Vulkan, OpenGL, DirectX",
+  "tags": [
+    "graphics",
+    "dap",
+    "gpu",
+    "vulkan"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/renderdoc/plugin.yaml",
+        "path": "dap/plugins/renderdoc/plugin.yaml"
+      }
+    ]
+  }
+}

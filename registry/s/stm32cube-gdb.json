@@ -1,0 +1,30 @@
+{
+  "id": "stm32cube-gdb",
+  "version": "0.1.0",
+  "description": "stm32cube-gdb for Dappy",
+  "tags": [
+    "embedded",
+    "stm32cube-gdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/stm32cube-gdb/plugin.yaml",
+        "path": "dap/plugins/stm32cube-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/stm32cube-gdb/reqpack.lua",
+        "path": "dap/plugins/stm32cube-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

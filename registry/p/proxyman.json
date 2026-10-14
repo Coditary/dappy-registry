@@ -1,0 +1,30 @@
+{
+  "id": "proxyman",
+  "version": "0.1.0",
+  "description": "proxyman for Dappy",
+  "tags": [
+    "mobile",
+    "proxyman"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/pyproject.toml",
+        "path": "dap/plugins/mobile-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mobile-launchers/dappy_mobile_launch/launcher.py",
+        "path": "dap/plugins/mobile-launchers/dappy_mobile_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/proxyman/plugin.yaml",
+        "path": "dap/plugins/proxyman/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/proxyman/reqpack.lua",
+        "path": "dap/plugins/proxyman/reqpack.lua"
+      }
+    ]
+  }
+}

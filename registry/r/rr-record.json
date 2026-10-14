@@ -1,0 +1,24 @@
+{
+  "id": "rr-record",
+  "version": "0.1.0",
+  "description": "Mozilla rr record target",
+  "tags": [
+    "rsp",
+    "target",
+    "rr",
+    "record"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rr-record/target.yaml",
+        "path": "dap/targets/rr-record/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rr-record/reqpack.lua",
+        "path": "dap/plugins/rr-record/reqpack.lua"
+      }
+    ]
+  }
+}

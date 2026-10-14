@@ -1,0 +1,32 @@
+{
+  "id": "cuckoo-sandbox",
+  "version": "0.1.0",
+  "description": "Automated malware analysis and debugging",
+  "tags": [
+    "instrumentation",
+    "dap",
+    "malware",
+    "sandbox"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/pyproject.toml",
+        "path": "dap/plugins/instrumentation-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/launcher.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/cuckoo-sandbox/plugin.yaml",
+        "path": "dap/plugins/cuckoo-sandbox/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/cuckoo-sandbox/reqpack.lua",
+        "path": "dap/plugins/cuckoo-sandbox/reqpack.lua"
+      }
+    ]
+  }
+}

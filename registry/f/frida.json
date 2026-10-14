@@ -1,0 +1,32 @@
+{
+  "id": "frida",
+  "version": "0.1.0",
+  "description": "Dynamic instrumentation for native and mobile apps",
+  "tags": [
+    "instrumentation",
+    "dap",
+    "hook",
+    "dynamic"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/pyproject.toml",
+        "path": "dap/plugins/instrumentation-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/launcher.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/frida/plugin.yaml",
+        "path": "dap/plugins/frida/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/frida/reqpack.lua",
+        "path": "dap/plugins/frida/reqpack.lua"
+      }
+    ]
+  }
+}

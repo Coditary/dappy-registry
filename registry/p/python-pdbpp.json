@@ -1,0 +1,29 @@
+{
+  "id": "python-pdbpp",
+  "version": "0.1.0",
+  "description": "Python pdb++ (pdbpp) adapter manifest for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "pdbpp",
+    "pdb++"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdbpp/plugin.yaml",
+        "path": "dap/plugins/python-pdbpp/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdbpp/attachment.yaml",
+        "path": "dap/plugins/python-pdbpp/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdbpp/reqpack.lua",
+        "path": "dap/plugins/python-pdbpp/reqpack.lua"
+      }
+    ]
+  }
+}

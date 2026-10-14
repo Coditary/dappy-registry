@@ -1,0 +1,31 @@
+{
+  "id": "dr-memory",
+  "version": "0.1.0",
+  "description": "dr-memory analysis target",
+  "tags": [
+    "target",
+    "sanitizer",
+    "dr-memory"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dr-memory/target.yaml",
+        "path": "dap/targets/dr-memory/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dr-memory/reqpack.lua",
+        "path": "dap/plugins/dr-memory/reqpack.lua"
+      }
+    ]
+  }
+}

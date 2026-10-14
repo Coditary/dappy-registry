@@ -1,0 +1,32 @@
+{
+  "id": "dart-devtools",
+  "version": "0.1.0",
+  "description": "Dart/Flutter Observatory and DevTools debugging",
+  "tags": [
+    "language",
+    "dap",
+    "dart",
+    "flutter"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dart-devtools/plugin.yaml",
+        "path": "dap/plugins/dart-devtools/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dart-devtools/reqpack.lua",
+        "path": "dap/plugins/dart-devtools/reqpack.lua"
+      }
+    ]
+  }
+}

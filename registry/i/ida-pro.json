@@ -1,0 +1,31 @@
+{
+  "id": "ida-pro",
+  "version": "0.1.0",
+  "description": "ida-pro RE launcher",
+  "tags": [
+    "re",
+    "dap",
+    "ida-pro"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/pyproject.toml",
+        "path": "dap/plugins/re-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/re-launchers/dappy_re_launch/launcher.py",
+        "path": "dap/plugins/re-launchers/dappy_re_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ida-pro/plugin.yaml",
+        "path": "dap/plugins/ida-pro/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ida-pro/reqpack.lua",
+        "path": "dap/plugins/ida-pro/reqpack.lua"
+      }
+    ]
+  }
+}

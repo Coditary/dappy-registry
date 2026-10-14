@@ -1,0 +1,32 @@
+{
+  "id": "idris-debugger",
+  "version": "0.1.0",
+  "description": "Stepwise evaluation for dependently typed code",
+  "tags": [
+    "niche",
+    "dap",
+    "idris",
+    "functional"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/pyproject.toml",
+        "path": "dap/plugins/niche-language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/niche-language-launchers/dappy_niche_language_launch/launcher.py",
+        "path": "dap/plugins/niche-language-launchers/dappy_niche_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/idris-debugger/plugin.yaml",
+        "path": "dap/plugins/idris-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/idris-debugger/reqpack.lua",
+        "path": "dap/plugins/idris-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

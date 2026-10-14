@@ -1,0 +1,30 @@
+{
+  "id": "elastic-apm",
+  "version": "0.1.0",
+  "description": "Log and error analysis via Elasticsearch/Kibana",
+  "tags": [
+    "observability",
+    "dap",
+    "non-breaking",
+    "elk",
+    "apm",
+    "opensource"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/pyproject.toml",
+        "path": "dap/plugins/observability-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch/launcher.py",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/elastic-apm/plugin.yaml",
+        "path": "dap/plugins/elastic-apm/plugin.yaml"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "observability-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-observability-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/README.md",
+        "path": "dap/plugins/observability-launchers/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch/__init__.py",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch/launcher.py",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch.egg-info/PKG-INFO",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch.egg-info/PKG-INFO"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch.egg-info/SOURCES.txt",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch.egg-info/SOURCES.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch.egg-info/dependency_links.txt",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch.egg-info/dependency_links.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch.egg-info/entry_points.txt",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch.egg-info/entry_points.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/dappy_observability_launch.egg-info/top_level.txt",
+        "path": "dap/plugins/observability-launchers/dappy_observability_launch.egg-info/top_level.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/pyproject.toml",
+        "path": "dap/plugins/observability-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/observability-launchers/reqpack.lua",
+        "path": "dap/plugins/observability-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

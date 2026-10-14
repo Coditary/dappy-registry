@@ -1,0 +1,32 @@
+{
+  "id": "vba-vb6-debugger",
+  "version": "0.1.0",
+  "description": "Microsoft Office VBA and VB6 IDE debugger",
+  "tags": [
+    "language",
+    "dap",
+    "vba",
+    "vb6"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/vba-vb6-debugger/plugin.yaml",
+        "path": "dap/plugins/vba-vb6-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/vba-vb6-debugger/reqpack.lua",
+        "path": "dap/plugins/vba-vb6-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

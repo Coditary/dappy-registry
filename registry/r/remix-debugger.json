@@ -1,0 +1,32 @@
+{
+  "id": "remix-debugger",
+  "version": "0.1.0",
+  "description": "Ethereum/Solidity opcode and line transaction debugger",
+  "tags": [
+    "blockchain",
+    "dap",
+    "solidity",
+    "evm"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/blockchain-launchers/pyproject.toml",
+        "path": "dap/plugins/blockchain-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/blockchain-launchers/dappy_blockchain_launch/launcher.py",
+        "path": "dap/plugins/blockchain-launchers/dappy_blockchain_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/remix-debugger/plugin.yaml",
+        "path": "dap/plugins/remix-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/remix-debugger/reqpack.lua",
+        "path": "dap/plugins/remix-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

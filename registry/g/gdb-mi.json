@@ -1,0 +1,41 @@
+{
+  "id": "gdb-mi",
+  "version": "0.1.0",
+  "description": "GDB Machine Interface DAP bridge",
+  "tags": [
+    "gdb",
+    "dap",
+    "mi",
+    "gdb",
+    "mi"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-gdb/pyproject.toml",
+        "path": "dap/plugins/native-gdb/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-gdb/dappy_gdb_dap/adapter.py",
+        "path": "dap/plugins/native-gdb/dappy_gdb_dap/adapter.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-gdb/dappy_gdb_dap/__main__.py",
+        "path": "dap/plugins/native-gdb/dappy_gdb_dap/__main__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-gdb/dappy_gdb_dap/__init__.py",
+        "path": "dap/plugins/native-gdb/dappy_gdb_dap/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdb-mi/plugin.yaml",
+        "path": "dap/plugins/gdb-mi/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/gdb-mi/reqpack.lua",
+        "path": "dap/plugins/gdb-mi/reqpack.lua"
+      }
+    ]
+  }
+}

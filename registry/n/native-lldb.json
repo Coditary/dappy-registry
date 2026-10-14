@@ -1,0 +1,31 @@
+{
+  "id": "native-lldb",
+  "version": "0.1.0",
+  "description": "LLVM lldb-dap for C, C++, Rust, Zig",
+  "tags": [
+    "dap",
+    "adapter",
+    "lldb",
+    "c",
+    "cpp",
+    "rust",
+    "zig"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-lldb/plugin.yaml",
+        "path": "dap/plugins/native-lldb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-lldb/attachment.yaml",
+        "path": "dap/plugins/native-lldb/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/native-lldb/reqpack.lua",
+        "path": "dap/plugins/native-lldb/reqpack.lua"
+      }
+    ]
+  }
+}

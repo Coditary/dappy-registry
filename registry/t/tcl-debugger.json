@@ -1,0 +1,32 @@
+{
+  "id": "tcl-debugger",
+  "version": "0.1.0",
+  "description": "Tcl native debug commands and tclpro",
+  "tags": [
+    "language",
+    "dap",
+    "tcl",
+    "script"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/tcl-debugger/plugin.yaml",
+        "path": "dap/plugins/tcl-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/tcl-debugger/reqpack.lua",
+        "path": "dap/plugins/tcl-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

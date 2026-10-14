@@ -1,0 +1,33 @@
+{
+  "id": "mdb",
+  "version": "0.1.0",
+  "description": "Modular Debugger for Solaris/illumos",
+  "tags": [
+    "historic",
+    "dap",
+    "solaris",
+    "illumos",
+    "kernel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mdb/plugin.yaml",
+        "path": "dap/plugins/mdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mdb/reqpack.lua",
+        "path": "dap/plugins/mdb/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "macsbug",
+  "version": "0.1.0",
+  "description": "Legendary classic Mac OS system debugger",
+  "tags": [
+    "historic",
+    "dap",
+    "historic",
+    "macos",
+    "legacy"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/macsbug/plugin.yaml",
+        "path": "dap/plugins/macsbug/plugin.yaml"
+      }
+    ]
+  }
+}

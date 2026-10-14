@@ -1,0 +1,32 @@
+{
+  "id": "unity-profiler",
+  "version": "0.1.0",
+  "description": "Unity Engine profiler and debugger",
+  "tags": [
+    "graphics",
+    "dap",
+    "game",
+    "unity"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/unity-profiler/plugin.yaml",
+        "path": "dap/plugins/unity-profiler/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/unity-profiler/reqpack.lua",
+        "path": "dap/plugins/unity-profiler/reqpack.lua"
+      }
+    ]
+  }
+}

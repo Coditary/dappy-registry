@@ -1,0 +1,58 @@
+{
+  "id": "python-trepan2",
+  "version": "0.1.0",
+  "description": "Python 2 trepan2 gdb-like debugger adapter for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "trepan2",
+    "trepan",
+    "legacy"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/plugin.yaml",
+        "path": "dap/plugins/python-trepan2/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/README.md",
+        "path": "dap/plugins/python-trepan2/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/requirements.txt",
+        "path": "dap/plugins/python-trepan2/requirements.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/pyproject.toml",
+        "path": "dap/plugins/python-trepan2/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/dappy_trepan2/__init__.py",
+        "path": "dap/plugins/python-trepan2/dappy_trepan2/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/dappy_trepan2/dap.py",
+        "path": "dap/plugins/python-trepan2/dappy_trepan2/dap.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/dappy_trepan2/dap_protocol.py",
+        "path": "dap/plugins/python-trepan2/dappy_trepan2/dap_protocol.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/dappy_trepan2/server_launcher.py",
+        "path": "dap/plugins/python-trepan2/dappy_trepan2/server_launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/dappy_trepan2/trepan_io.py",
+        "path": "dap/plugins/python-trepan2/dappy_trepan2/trepan_io.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-trepan2/reqpack.lua",
+        "path": "dap/plugins/python-trepan2/reqpack.lua"
+      }
+    ]
+  }
+}

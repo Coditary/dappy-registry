@@ -1,0 +1,32 @@
+{
+  "id": "v8-inspector",
+  "version": "0.1.0",
+  "description": "V8/Node inspect protocol debugger",
+  "tags": [
+    "language",
+    "dap",
+    "javascript",
+    "v8"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/pyproject.toml",
+        "path": "dap/plugins/language-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-launchers/dappy_language_launch/launcher.py",
+        "path": "dap/plugins/language-launchers/dappy_language_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/v8-inspector/plugin.yaml",
+        "path": "dap/plugins/v8-inspector/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/v8-inspector/reqpack.lua",
+        "path": "dap/plugins/v8-inspector/reqpack.lua"
+      }
+    ]
+  }
+}

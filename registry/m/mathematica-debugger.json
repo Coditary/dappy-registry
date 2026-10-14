@@ -1,0 +1,28 @@
+{
+  "id": "mathematica-debugger",
+  "version": "0.1.0",
+  "description": "Trace/Check symbolic computation debugger",
+  "tags": [
+    "math",
+    "dap",
+    "wolfram",
+    "symbolic"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/math-launchers/pyproject.toml",
+        "path": "dap/plugins/math-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/math-launchers/dappy_math_launch/launcher.py",
+        "path": "dap/plugins/math-launchers/dappy_math_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mathematica-debugger/plugin.yaml",
+        "path": "dap/plugins/mathematica-debugger/plugin.yaml"
+      }
+    ]
+  }
+}

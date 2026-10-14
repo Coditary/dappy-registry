@@ -1,0 +1,28 @@
+{
+  "id": "ibm-zos-debugger",
+  "version": "0.1.0",
+  "description": "COBOL, PL/I, Assembler, C debugger for IBM mainframes",
+  "tags": [
+    "mainframe",
+    "dap",
+    "mainframe",
+    "ibm"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mainframe-launchers/pyproject.toml",
+        "path": "dap/plugins/mainframe-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mainframe-launchers/dappy_mainframe_launch/launcher.py",
+        "path": "dap/plugins/mainframe-launchers/dappy_mainframe_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ibm-zos-debugger/plugin.yaml",
+        "path": "dap/plugins/ibm-zos-debugger/plugin.yaml"
+      }
+    ]
+  }
+}

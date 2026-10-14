@@ -1,0 +1,32 @@
+{
+  "id": "ssms-tsql",
+  "version": "0.1.0",
+  "description": "Visual T-SQL debugger in SQL Server Management Studio",
+  "tags": [
+    "database",
+    "dap",
+    "sqlserver",
+    "tsql"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/database-launchers/pyproject.toml",
+        "path": "dap/plugins/database-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/database-launchers/dappy_database_launch/launcher.py",
+        "path": "dap/plugins/database-launchers/dappy_database_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ssms-tsql/plugin.yaml",
+        "path": "dap/plugins/ssms-tsql/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ssms-tsql/reqpack.lua",
+        "path": "dap/plugins/ssms-tsql/reqpack.lua"
+      }
+    ]
+  }
+}

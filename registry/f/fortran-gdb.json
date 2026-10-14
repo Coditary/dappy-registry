@@ -1,0 +1,32 @@
+{
+  "id": "fortran-gdb",
+  "version": "0.1.0",
+  "description": "gfortran line debugging via GNU GDB",
+  "tags": [
+    "language",
+    "dap",
+    "fortran",
+    "gfortran"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/fortran-gdb/plugin.yaml",
+        "path": "dap/plugins/fortran-gdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/fortran-gdb/reqpack.lua",
+        "path": "dap/plugins/fortran-gdb/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "trace32-lauterbach",
+  "version": "0.1.0",
+  "description": "trace32-lauterbach for Dappy",
+  "tags": [
+    "embedded",
+    "trace32-lauterbach"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/trace32-lauterbach/plugin.yaml",
+        "path": "dap/plugins/trace32-lauterbach/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/trace32-lauterbach/reqpack.lua",
+        "path": "dap/plugins/trace32-lauterbach/reqpack.lua"
+      }
+    ]
+  }
+}

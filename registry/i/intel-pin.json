@@ -1,0 +1,28 @@
+{
+  "id": "intel-pin",
+  "version": "0.1.0",
+  "description": "Dynamic binary instrumentation framework",
+  "tags": [
+    "instrumentation",
+    "dap",
+    "pin",
+    "intel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/pyproject.toml",
+        "path": "dap/plugins/instrumentation-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/launcher.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/intel-pin/plugin.yaml",
+        "path": "dap/plugins/intel-pin/plugin.yaml"
+      }
+    ]
+  }
+}

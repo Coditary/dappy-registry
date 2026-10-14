@@ -1,0 +1,32 @@
+{
+  "id": "any-run",
+  "version": "0.1.0",
+  "description": "Interactive online malware analyzer",
+  "tags": [
+    "instrumentation",
+    "dap",
+    "malware",
+    "cloud"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/pyproject.toml",
+        "path": "dap/plugins/instrumentation-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/launcher.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/any-run/plugin.yaml",
+        "path": "dap/plugins/any-run/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/any-run/reqpack.lua",
+        "path": "dap/plugins/any-run/reqpack.lua"
+      }
+    ]
+  }
+}

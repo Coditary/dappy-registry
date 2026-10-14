@@ -1,0 +1,32 @@
+{
+  "id": "qsharp-debugger",
+  "version": "0.1.0",
+  "description": "Microsoft Quantum qubit and gate debugger",
+  "tags": [
+    "language",
+    "dap",
+    "quantum",
+    "qsharp"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qsharp-debugger/plugin.yaml",
+        "path": "dap/plugins/qsharp-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qsharp-debugger/reqpack.lua",
+        "path": "dap/plugins/qsharp-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

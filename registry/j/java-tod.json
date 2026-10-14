@@ -1,0 +1,23 @@
+{
+  "id": "java-tod",
+  "version": "0.1.0",
+  "description": "Java Omniscient Debugger TOD",
+  "tags": [
+    "dap",
+    "java",
+    "tod"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/java-tod/plugin.yaml",
+        "path": "dap/plugins/java-tod/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/java-tod/reqpack.lua",
+        "path": "dap/plugins/java-tod/reqpack.lua"
+      }
+    ]
+  }
+}

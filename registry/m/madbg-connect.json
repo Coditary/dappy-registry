@@ -1,0 +1,22 @@
+{
+  "id": "madbg-connect",
+  "version": "0.1.0",
+  "description": "Connect to an existing madbg TCP server (Dappy companion manifest)",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "madbg",
+    "attach",
+    "connect"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-madbg/madbg-connect.yaml",
+        "path": "dap/plugins/madbg-connect.yaml"
+      }
+    ]
+  }
+}

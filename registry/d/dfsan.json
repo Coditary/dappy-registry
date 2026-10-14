@@ -1,0 +1,31 @@
+{
+  "id": "dfsan",
+  "version": "0.1.0",
+  "description": "Customizable data-flow tracking in Clang",
+  "tags": [
+    "sanitizer",
+    "analysis",
+    "dfsan"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dfsan/target.yaml",
+        "path": "dap/targets/dfsan/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dfsan/reqpack.lua",
+        "path": "dap/plugins/dfsan/reqpack.lua"
+      }
+    ]
+  }
+}

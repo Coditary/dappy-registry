@@ -1,0 +1,31 @@
+{
+  "id": "ubsan",
+  "version": "0.1.0",
+  "description": "ubsan analysis target",
+  "tags": [
+    "target",
+    "sanitizer",
+    "ubsan"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/pyproject.toml",
+        "path": "dap/plugins/sanitizer-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/sanitizer-launchers/dappy_sanitizer_run/launcher.py",
+        "path": "dap/plugins/sanitizer-launchers/dappy_sanitizer_run/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ubsan/target.yaml",
+        "path": "dap/targets/ubsan/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ubsan/reqpack.lua",
+        "path": "dap/plugins/ubsan/reqpack.lua"
+      }
+    ]
+  }
+}

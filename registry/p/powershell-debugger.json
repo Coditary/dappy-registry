@@ -1,0 +1,32 @@
+{
+  "id": "powershell-debugger",
+  "version": "0.1.0",
+  "description": "Set-PSBreakpoint and host-process debugging",
+  "tags": [
+    "language",
+    "dap",
+    "powershell",
+    "windows"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/powershell-debugger/plugin.yaml",
+        "path": "dap/plugins/powershell-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/powershell-debugger/reqpack.lua",
+        "path": "dap/plugins/powershell-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

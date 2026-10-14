@@ -1,0 +1,32 @@
+{
+  "id": "dax-studio",
+  "version": "0.1.0",
+  "description": "DAX query debugger for Power BI and Excel data models",
+  "tags": [
+    "language",
+    "dap",
+    "dax",
+    "powerbi"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dax-studio/plugin.yaml",
+        "path": "dap/plugins/dax-studio/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dax-studio/reqpack.lua",
+        "path": "dap/plugins/dax-studio/reqpack.lua"
+      }
+    ]
+  }
+}

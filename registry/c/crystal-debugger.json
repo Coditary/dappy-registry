@@ -1,0 +1,32 @@
+{
+  "id": "crystal-debugger",
+  "version": "0.1.0",
+  "description": "Crystal native debug via crystal run --debug or LLDB",
+  "tags": [
+    "language",
+    "dap",
+    "crystal",
+    "llvm"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/crystal-debugger/plugin.yaml",
+        "path": "dap/plugins/crystal-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/crystal-debugger/reqpack.lua",
+        "path": "dap/plugins/crystal-debugger/reqpack.lua"
+      }
+    ]
+  }
+}

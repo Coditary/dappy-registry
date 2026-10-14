@@ -1,0 +1,23 @@
+{
+  "id": "ilspy",
+  "version": "0.1.0",
+  "description": "ILSpy .NET decompiler",
+  "tags": [
+    "dap",
+    "ilspy",
+    "dotnet"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ilspy/plugin.yaml",
+        "path": "dap/plugins/ilspy/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/ilspy/reqpack.lua",
+        "path": "dap/plugins/ilspy/reqpack.lua"
+      }
+    ]
+  }
+}

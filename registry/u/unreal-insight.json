@@ -1,0 +1,28 @@
+{
+  "id": "unreal-insight",
+  "version": "0.1.0",
+  "description": "Unreal Engine Insights and Visual Logger",
+  "tags": [
+    "graphics",
+    "dap",
+    "game",
+    "unreal"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/unreal-insight/plugin.yaml",
+        "path": "dap/plugins/unreal-insight/plugin.yaml"
+      }
+    ]
+  }
+}

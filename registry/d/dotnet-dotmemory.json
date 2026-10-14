@@ -1,0 +1,23 @@
+{
+  "id": "dotnet-dotmemory",
+  "version": "0.1.0",
+  "description": "JetBrains dotMemory profiler",
+  "tags": [
+    "target",
+    "dotnet",
+    "profiling"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dotnet-dotmemory/target.yaml",
+        "path": "dap/targets/dotnet-dotmemory/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dotnet-dotmemory/reqpack.lua",
+        "path": "dap/plugins/dotnet-dotmemory/reqpack.lua"
+      }
+    ]
+  }
+}

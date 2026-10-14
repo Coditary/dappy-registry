@@ -1,0 +1,30 @@
+{
+  "id": "segger-ozone",
+  "version": "0.1.0",
+  "description": "segger-ozone for Dappy",
+  "tags": [
+    "embedded",
+    "segger-ozone"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/pyproject.toml",
+        "path": "dap/plugins/embedded-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/embedded-launchers/dappy_embedded_launch/launcher.py",
+        "path": "dap/plugins/embedded-launchers/dappy_embedded_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/segger-ozone/plugin.yaml",
+        "path": "dap/plugins/segger-ozone/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/segger-ozone/reqpack.lua",
+        "path": "dap/plugins/segger-ozone/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "python-pdb",
+  "version": "0.1.0",
+  "description": "Python stdlib pdb adapter manifest and DAP bridge for Dappy",
+  "tags": [
+    "dap",
+    "adapter",
+    "python",
+    "pdb"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/plugin.yaml",
+        "path": "dap/plugins/python-pdb/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/attachment.yaml",
+        "path": "dap/plugins/python-pdb/attachment.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/pyproject.toml",
+        "path": "dap/plugins/python-pdb/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/dappy_pdb_bridge/__init__.py",
+        "path": "dap/plugins/python-pdb/dappy_pdb_bridge/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/dappy_pdb_bridge/__main__.py",
+        "path": "dap/plugins/python-pdb/dappy_pdb_bridge/__main__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/dappy_pdb_bridge/adapter.py",
+        "path": "dap/plugins/python-pdb/dappy_pdb_bridge/adapter.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/requirements.txt",
+        "path": "dap/plugins/python-pdb/requirements.txt"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/README.md",
+        "path": "dap/plugins/python-pdb/README.md"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/python-pdb/reqpack.lua",
+        "path": "dap/plugins/python-pdb/reqpack.lua"
+      }
+    ]
+  }
+}

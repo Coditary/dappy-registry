@@ -1,0 +1,32 @@
+{
+  "id": "dos-debug",
+  "version": "0.1.0",
+  "description": "Built-in MS-DOS hex/assembler debugger",
+  "tags": [
+    "historic",
+    "dap",
+    "historic",
+    "dos"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/pyproject.toml",
+        "path": "dap/plugins/historic-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/historic-launchers/dappy_historic_launch/launcher.py",
+        "path": "dap/plugins/historic-launchers/dappy_historic_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dos-debug/plugin.yaml",
+        "path": "dap/plugins/dos-debug/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/dos-debug/reqpack.lua",
+        "path": "dap/plugins/dos-debug/reqpack.lua"
+      }
+    ]
+  }
+}

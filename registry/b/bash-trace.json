@@ -1,0 +1,32 @@
+{
+  "id": "bash-trace",
+  "version": "0.1.0",
+  "description": "Shell script execution tracing (bash -xv)",
+  "tags": [
+    "language",
+    "dap",
+    "bash",
+    "shell"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/pyproject.toml",
+        "path": "dap/plugins/language-extra-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-extra-launchers/dappy_language_extra_launch/launcher.py",
+        "path": "dap/plugins/language-extra-launchers/dappy_language_extra_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bash-trace/plugin.yaml",
+        "path": "dap/plugins/bash-trace/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/bash-trace/reqpack.lua",
+        "path": "dap/plugins/bash-trace/reqpack.lua"
+      }
+    ]
+  }
+}

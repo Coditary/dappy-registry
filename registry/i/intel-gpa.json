@@ -1,0 +1,28 @@
+{
+  "id": "intel-gpa",
+  "version": "0.1.0",
+  "description": "Intel Graphics Performance Analyzers",
+  "tags": [
+    "graphics",
+    "dap",
+    "gpu",
+    "intel"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/pyproject.toml",
+        "path": "dap/plugins/graphics-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/graphics-launchers/dappy_graphics_launch/launcher.py",
+        "path": "dap/plugins/graphics-launchers/dappy_graphics_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/intel-gpa/plugin.yaml",
+        "path": "dap/plugins/intel-gpa/plugin.yaml"
+      }
+    ]
+  }
+}

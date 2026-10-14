@@ -1,0 +1,31 @@
+{
+  "id": "mainframe-launchers",
+  "version": "0.1.0",
+  "description": "Debugger launcher scripts for Dappy (dappy-mainframe-launch)",
+  "tags": [
+    "dap",
+    "launcher",
+    "tool"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mainframe-launchers/dappy_mainframe_launch/__init__.py",
+        "path": "dap/plugins/mainframe-launchers/dappy_mainframe_launch/__init__.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mainframe-launchers/dappy_mainframe_launch/launcher.py",
+        "path": "dap/plugins/mainframe-launchers/dappy_mainframe_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mainframe-launchers/pyproject.toml",
+        "path": "dap/plugins/mainframe-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/mainframe-launchers/reqpack.lua",
+        "path": "dap/plugins/mainframe-launchers/reqpack.lua"
+      }
+    ]
+  }
+}

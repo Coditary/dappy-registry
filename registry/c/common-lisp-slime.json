@@ -1,0 +1,32 @@
+{
+  "id": "common-lisp-slime",
+  "version": "0.1.0",
+  "description": "Common Lisp interactive Emacs/SLIME debugger",
+  "tags": [
+    "language",
+    "dap",
+    "lisp",
+    "slime"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/common-lisp-slime/plugin.yaml",
+        "path": "dap/plugins/common-lisp-slime/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/common-lisp-slime/reqpack.lua",
+        "path": "dap/plugins/common-lisp-slime/reqpack.lua"
+      }
+    ]
+  }
+}

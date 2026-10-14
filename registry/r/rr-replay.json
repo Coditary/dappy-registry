@@ -1,0 +1,27 @@
+{
+  "id": "rr-replay",
+  "version": "0.1.0",
+  "description": "Mozilla rr time-travel debugging via lldb-dap",
+  "tags": [
+    "dap",
+    "adapter",
+    "rr",
+    "c",
+    "cpp",
+    "rust",
+    "zig"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rr-replay/plugin.yaml",
+        "path": "dap/plugins/rr-replay/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/rr-replay/reqpack.lua",
+        "path": "dap/plugins/rr-replay/reqpack.lua"
+      }
+    ]
+  }
+}

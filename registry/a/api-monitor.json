@@ -1,0 +1,32 @@
+{
+  "id": "api-monitor",
+  "version": "0.1.0",
+  "description": "Real-time Windows API call interceptor",
+  "tags": [
+    "instrumentation",
+    "dap",
+    "windows",
+    "api"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/pyproject.toml",
+        "path": "dap/plugins/instrumentation-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/instrumentation-launchers/dappy_instrumentation_launch/launcher.py",
+        "path": "dap/plugins/instrumentation-launchers/dappy_instrumentation_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/api-monitor/plugin.yaml",
+        "path": "dap/plugins/api-monitor/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/api-monitor/reqpack.lua",
+        "path": "dap/plugins/api-monitor/reqpack.lua"
+      }
+    ]
+  }
+}

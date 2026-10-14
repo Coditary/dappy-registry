@@ -14,6 +14,10 @@
       {
         "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qemu-x86-kernel/target.yaml",
         "path": "dap/targets/qemu-x86-kernel/target.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/qemu-x86-kernel/reqpack.lua",
+        "path": "dap/plugins/qemu-x86-kernel/reqpack.lua"
       }
     ]
   }

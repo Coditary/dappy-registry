@@ -1,0 +1,32 @@
+{
+  "id": "pernosco",
+  "version": "0.1.0",
+  "description": "Collaborative web UI for rr time-travel traces",
+  "tags": [
+    "timetravel",
+    "dap",
+    "rr",
+    "web"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/pyproject.toml",
+        "path": "dap/plugins/timetravel-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/timetravel-launchers/dappy_timetravel_launch/launcher.py",
+        "path": "dap/plugins/timetravel-launchers/dappy_timetravel_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pernosco/plugin.yaml",
+        "path": "dap/plugins/pernosco/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/pernosco/reqpack.lua",
+        "path": "dap/plugins/pernosco/reqpack.lua"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+# Build / toolchain outputs
+bin/
+build/
+target/
+**/bin/
+**/build/
+
+node_modules/
+__pycache__/
+*.pyc
+
+.DS_Store
+.idea/
+.vscode/

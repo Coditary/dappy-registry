@@ -1,0 +1,32 @@
+{
+  "id": "processing-debugger",
+  "version": "0.1.0",
+  "description": "Processing IDE visual sketch debugger",
+  "tags": [
+    "language",
+    "dap",
+    "processing",
+    "creative"
+  ],
+  "source": {
+    "type": "plugin",
+    "files": [
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/pyproject.toml",
+        "path": "dap/plugins/language-platform-launchers/pyproject.toml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/language-platform-launchers/dappy_language_platform_launch/launcher.py",
+        "path": "dap/plugins/language-platform-launchers/dappy_language_platform_launch/launcher.py"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/processing-debugger/plugin.yaml",
+        "path": "dap/plugins/processing-debugger/plugin.yaml"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/Coditary/dappy-plugins/main/processing-debugger/reqpack.lua",
+        "path": "dap/plugins/processing-debugger/reqpack.lua"
+      }
+    ]
+  }
+}
